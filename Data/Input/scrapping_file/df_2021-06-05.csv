@@ -1,0 +1,2377 @@
+Region,Dosis,edad,accumulated_vaccinated,start_date
+Total,Primera,15,0.0,2021-06-05
+Total,Primera,16,0.0,2021-06-05
+Total,Primera,17,0.0,2021-06-05
+Total,Primera,18,42734.0,2021-06-05
+Total,Primera,19,50372.0,2021-06-05
+Total,Primera,20,57220.0,2021-06-05
+Total,Primera,21,63520.0,2021-06-05
+Total,Primera,22,74619.0,2021-06-05
+Total,Primera,23,139496.0,2021-06-05
+Total,Primera,24,161151.0,2021-06-05
+Total,Primera,25,172309.0,2021-06-05
+Total,Primera,26,200329.0,2021-06-05
+Total,Primera,27,205597.0,2021-06-05
+Total,Primera,28,212903.0,2021-06-05
+Total,Primera,29,219695.0,2021-06-05
+Total,Primera,30,231300.0,2021-06-05
+Total,Primera,31,235816.0,2021-06-05
+Total,Primera,32,231655.0,2021-06-05
+Total,Primera,33,223196.0,2021-06-05
+Total,Primera,34,216328.0,2021-06-05
+Total,Primera,35,211486.0,2021-06-05
+Total,Primera,36,206996.0,2021-06-05
+Total,Primera,37,204353.0,2021-06-05
+Total,Primera,38,213597.0,2021-06-05
+Total,Primera,39,218464.0,2021-06-05
+Total,Primera,40,208030.0,2021-06-05
+Total,Primera,41,203830.0,2021-06-05
+Total,Primera,42,196826.0,2021-06-05
+Total,Primera,43,193568.0,2021-06-05
+Total,Primera,44,195651.0,2021-06-05
+Total,Primera,45,205699.0,2021-06-05
+Total,Primera,46,210877.0,2021-06-05
+Total,Primera,47,213394.0,2021-06-05
+Total,Primera,48,215077.0,2021-06-05
+Total,Primera,49,211755.0,2021-06-05
+Total,Primera,50,206942.0,2021-06-05
+Total,Primera,51,200522.0,2021-06-05
+Total,Primera,52,206198.0,2021-06-05
+Total,Primera,53,210438.0,2021-06-05
+Total,Primera,54,212129.0,2021-06-05
+Total,Primera,55,214140.0,2021-06-05
+Total,Primera,56,214307.0,2021-06-05
+Total,Primera,57,212231.0,2021-06-05
+Total,Primera,58,212824.0,2021-06-05
+Total,Primera,59,203693.0,2021-06-05
+Total,Primera,60,202378.0,2021-06-05
+Total,Primera,61,187492.0,2021-06-05
+Total,Primera,62,182344.0,2021-06-05
+Total,Primera,63,178788.0,2021-06-05
+Total,Primera,64,170343.0,2021-06-05
+Total,Primera,65,163559.0,2021-06-05
+Total,Primera,66,149793.0,2021-06-05
+Total,Primera,67,148741.0,2021-06-05
+Total,Primera,68,136494.0,2021-06-05
+Total,Primera,69,127017.0,2021-06-05
+Total,Primera,70,120139.0,2021-06-05
+Total,Primera,71,115553.0,2021-06-05
+Total,Primera,72,111016.0,2021-06-05
+Total,Primera,73,105101.0,2021-06-05
+Total,Primera,74,98853.0,2021-06-05
+Total,Primera,75,93211.0,2021-06-05
+Total,Primera,76,87889.0,2021-06-05
+Total,Primera,77,79830.0,2021-06-05
+Total,Primera,78,75242.0,2021-06-05
+Total,Primera,79,68405.0,2021-06-05
+Total,Primera,80,486326.0,2021-06-05
+Total,Segunda,15,0.0,2021-06-05
+Total,Segunda,16,0.0,2021-06-05
+Total,Segunda,17,0.0,2021-06-05
+Total,Segunda,18,31337.0,2021-06-05
+Total,Segunda,19,38841.0,2021-06-05
+Total,Segunda,20,44785.0,2021-06-05
+Total,Segunda,21,50390.0,2021-06-05
+Total,Segunda,22,58742.0,2021-06-05
+Total,Segunda,23,66905.0,2021-06-05
+Total,Segunda,24,74804.0,2021-06-05
+Total,Segunda,25,80905.0,2021-06-05
+Total,Segunda,26,87821.0,2021-06-05
+Total,Segunda,27,91769.0,2021-06-05
+Total,Segunda,28,96209.0,2021-06-05
+Total,Segunda,29,101196.0,2021-06-05
+Total,Segunda,30,106467.0,2021-06-05
+Total,Segunda,31,109125.0,2021-06-05
+Total,Segunda,32,107653.0,2021-06-05
+Total,Segunda,33,104034.0,2021-06-05
+Total,Segunda,34,101975.0,2021-06-05
+Total,Segunda,35,98886.0,2021-06-05
+Total,Segunda,36,97566.0,2021-06-05
+Total,Segunda,37,96736.0,2021-06-05
+Total,Segunda,38,101935.0,2021-06-05
+Total,Segunda,39,104461.0,2021-06-05
+Total,Segunda,40,129335.0,2021-06-05
+Total,Segunda,41,136973.0,2021-06-05
+Total,Segunda,42,137113.0,2021-06-05
+Total,Segunda,43,135885.0,2021-06-05
+Total,Segunda,44,139880.0,2021-06-05
+Total,Segunda,45,157050.0,2021-06-05
+Total,Segunda,46,168744.0,2021-06-05
+Total,Segunda,47,177554.0,2021-06-05
+Total,Segunda,48,186155.0,2021-06-05
+Total,Segunda,49,185303.0,2021-06-05
+Total,Segunda,50,183631.0,2021-06-05
+Total,Segunda,51,178961.0,2021-06-05
+Total,Segunda,52,185395.0,2021-06-05
+Total,Segunda,53,190058.0,2021-06-05
+Total,Segunda,54,192869.0,2021-06-05
+Total,Segunda,55,195758.0,2021-06-05
+Total,Segunda,56,196937.0,2021-06-05
+Total,Segunda,57,196221.0,2021-06-05
+Total,Segunda,58,197249.0,2021-06-05
+Total,Segunda,59,189902.0,2021-06-05
+Total,Segunda,60,190410.0,2021-06-05
+Total,Segunda,61,176919.0,2021-06-05
+Total,Segunda,62,172747.0,2021-06-05
+Total,Segunda,63,170366.0,2021-06-05
+Total,Segunda,64,162525.0,2021-06-05
+Total,Segunda,65,156854.0,2021-06-05
+Total,Segunda,66,144337.0,2021-06-05
+Total,Segunda,67,143670.0,2021-06-05
+Total,Segunda,68,131795.0,2021-06-05
+Total,Segunda,69,122959.0,2021-06-05
+Total,Segunda,70,116433.0,2021-06-05
+Total,Segunda,71,112084.0,2021-06-05
+Total,Segunda,72,107932.0,2021-06-05
+Total,Segunda,73,102127.0,2021-06-05
+Total,Segunda,74,96163.0,2021-06-05
+Total,Segunda,75,90666.0,2021-06-05
+Total,Segunda,76,85492.0,2021-06-05
+Total,Segunda,77,77735.0,2021-06-05
+Total,Segunda,78,73224.0,2021-06-05
+Total,Segunda,79,66564.0,2021-06-05
+Total,Segunda,80,472290.0,2021-06-05
+Antofagasta,Primera,15,0.0,2021-06-05
+Antofagasta,Primera,16,0.0,2021-06-05
+Antofagasta,Primera,17,0.0,2021-06-05
+Antofagasta,Primera,18,1195.0,2021-06-05
+Antofagasta,Primera,19,1549.0,2021-06-05
+Antofagasta,Primera,20,1934.0,2021-06-05
+Antofagasta,Primera,21,2313.0,2021-06-05
+Antofagasta,Primera,22,2570.0,2021-06-05
+Antofagasta,Primera,23,4136.0,2021-06-05
+Antofagasta,Primera,24,4866.0,2021-06-05
+Antofagasta,Primera,25,6064.0,2021-06-05
+Antofagasta,Primera,26,7334.0,2021-06-05
+Antofagasta,Primera,27,7770.0,2021-06-05
+Antofagasta,Primera,28,8051.0,2021-06-05
+Antofagasta,Primera,29,8078.0,2021-06-05
+Antofagasta,Primera,30,8567.0,2021-06-05
+Antofagasta,Primera,31,8797.0,2021-06-05
+Antofagasta,Primera,32,8676.0,2021-06-05
+Antofagasta,Primera,33,8525.0,2021-06-05
+Antofagasta,Primera,34,8248.0,2021-06-05
+Antofagasta,Primera,35,7954.0,2021-06-05
+Antofagasta,Primera,36,7822.0,2021-06-05
+Antofagasta,Primera,37,7456.0,2021-06-05
+Antofagasta,Primera,38,7767.0,2021-06-05
+Antofagasta,Primera,39,7919.0,2021-06-05
+Antofagasta,Primera,40,7785.0,2021-06-05
+Antofagasta,Primera,41,7608.0,2021-06-05
+Antofagasta,Primera,42,7197.0,2021-06-05
+Antofagasta,Primera,43,7375.0,2021-06-05
+Antofagasta,Primera,44,7471.0,2021-06-05
+Antofagasta,Primera,45,7524.0,2021-06-05
+Antofagasta,Primera,46,7559.0,2021-06-05
+Antofagasta,Primera,47,7734.0,2021-06-05
+Antofagasta,Primera,48,7761.0,2021-06-05
+Antofagasta,Primera,49,7405.0,2021-06-05
+Antofagasta,Primera,50,7196.0,2021-06-05
+Antofagasta,Primera,51,6736.0,2021-06-05
+Antofagasta,Primera,52,6421.0,2021-06-05
+Antofagasta,Primera,53,6360.0,2021-06-05
+Antofagasta,Primera,54,6295.0,2021-06-05
+Antofagasta,Primera,55,6387.0,2021-06-05
+Antofagasta,Primera,56,6370.0,2021-06-05
+Antofagasta,Primera,57,6447.0,2021-06-05
+Antofagasta,Primera,58,6356.0,2021-06-05
+Antofagasta,Primera,59,5928.0,2021-06-05
+Antofagasta,Primera,60,6008.0,2021-06-05
+Antofagasta,Primera,61,5379.0,2021-06-05
+Antofagasta,Primera,62,5131.0,2021-06-05
+Antofagasta,Primera,63,5089.0,2021-06-05
+Antofagasta,Primera,64,4783.0,2021-06-05
+Antofagasta,Primera,65,4524.0,2021-06-05
+Antofagasta,Primera,66,4069.0,2021-06-05
+Antofagasta,Primera,67,3949.0,2021-06-05
+Antofagasta,Primera,68,3642.0,2021-06-05
+Antofagasta,Primera,69,3144.0,2021-06-05
+Antofagasta,Primera,70,3056.0,2021-06-05
+Antofagasta,Primera,71,2752.0,2021-06-05
+Antofagasta,Primera,72,2499.0,2021-06-05
+Antofagasta,Primera,73,2391.0,2021-06-05
+Antofagasta,Primera,74,2151.0,2021-06-05
+Antofagasta,Primera,75,2044.0,2021-06-05
+Antofagasta,Primera,76,1901.0,2021-06-05
+Antofagasta,Primera,77,1720.0,2021-06-05
+Antofagasta,Primera,78,1623.0,2021-06-05
+Antofagasta,Primera,79,1373.0,2021-06-05
+Antofagasta,Primera,80,9249.0,2021-06-05
+Antofagasta,Segunda,15,0.0,2021-06-05
+Antofagasta,Segunda,16,0.0,2021-06-05
+Antofagasta,Segunda,17,0.0,2021-06-05
+Antofagasta,Segunda,18,1011.0,2021-06-05
+Antofagasta,Segunda,19,1348.0,2021-06-05
+Antofagasta,Segunda,20,1705.0,2021-06-05
+Antofagasta,Segunda,21,2070.0,2021-06-05
+Antofagasta,Segunda,22,2291.0,2021-06-05
+Antofagasta,Segunda,23,2524.0,2021-06-05
+Antofagasta,Segunda,24,2886.0,2021-06-05
+Antofagasta,Segunda,25,3049.0,2021-06-05
+Antofagasta,Segunda,26,3382.0,2021-06-05
+Antofagasta,Segunda,27,3577.0,2021-06-05
+Antofagasta,Segunda,28,3729.0,2021-06-05
+Antofagasta,Segunda,29,3747.0,2021-06-05
+Antofagasta,Segunda,30,3942.0,2021-06-05
+Antofagasta,Segunda,31,4068.0,2021-06-05
+Antofagasta,Segunda,32,3984.0,2021-06-05
+Antofagasta,Segunda,33,3979.0,2021-06-05
+Antofagasta,Segunda,34,3772.0,2021-06-05
+Antofagasta,Segunda,35,3669.0,2021-06-05
+Antofagasta,Segunda,36,3604.0,2021-06-05
+Antofagasta,Segunda,37,3432.0,2021-06-05
+Antofagasta,Segunda,38,3676.0,2021-06-05
+Antofagasta,Segunda,39,3672.0,2021-06-05
+Antofagasta,Segunda,40,4359.0,2021-06-05
+Antofagasta,Segunda,41,4624.0,2021-06-05
+Antofagasta,Segunda,42,4659.0,2021-06-05
+Antofagasta,Segunda,43,4868.0,2021-06-05
+Antofagasta,Segunda,44,5129.0,2021-06-05
+Antofagasta,Segunda,45,5707.0,2021-06-05
+Antofagasta,Segunda,46,5911.0,2021-06-05
+Antofagasta,Segunda,47,6274.0,2021-06-05
+Antofagasta,Segunda,48,6625.0,2021-06-05
+Antofagasta,Segunda,49,6424.0,2021-06-05
+Antofagasta,Segunda,50,6286.0,2021-06-05
+Antofagasta,Segunda,51,5976.0,2021-06-05
+Antofagasta,Segunda,52,5738.0,2021-06-05
+Antofagasta,Segunda,53,5690.0,2021-06-05
+Antofagasta,Segunda,54,5666.0,2021-06-05
+Antofagasta,Segunda,55,5811.0,2021-06-05
+Antofagasta,Segunda,56,5858.0,2021-06-05
+Antofagasta,Segunda,57,5940.0,2021-06-05
+Antofagasta,Segunda,58,5837.0,2021-06-05
+Antofagasta,Segunda,59,5531.0,2021-06-05
+Antofagasta,Segunda,60,5629.0,2021-06-05
+Antofagasta,Segunda,61,5065.0,2021-06-05
+Antofagasta,Segunda,62,4852.0,2021-06-05
+Antofagasta,Segunda,63,4821.0,2021-06-05
+Antofagasta,Segunda,64,4525.0,2021-06-05
+Antofagasta,Segunda,65,4333.0,2021-06-05
+Antofagasta,Segunda,66,3904.0,2021-06-05
+Antofagasta,Segunda,67,3796.0,2021-06-05
+Antofagasta,Segunda,68,3504.0,2021-06-05
+Antofagasta,Segunda,69,3033.0,2021-06-05
+Antofagasta,Segunda,70,2949.0,2021-06-05
+Antofagasta,Segunda,71,2655.0,2021-06-05
+Antofagasta,Segunda,72,2424.0,2021-06-05
+Antofagasta,Segunda,73,2316.0,2021-06-05
+Antofagasta,Segunda,74,2094.0,2021-06-05
+Antofagasta,Segunda,75,1983.0,2021-06-05
+Antofagasta,Segunda,76,1845.0,2021-06-05
+Antofagasta,Segunda,77,1664.0,2021-06-05
+Antofagasta,Segunda,78,1590.0,2021-06-05
+Antofagasta,Segunda,79,1323.0,2021-06-05
+Antofagasta,Segunda,80,8937.0,2021-06-05
+Arica y Parinacota,Primera,15,0.0,2021-06-05
+Arica y Parinacota,Primera,16,0.0,2021-06-05
+Arica y Parinacota,Primera,17,0.0,2021-06-05
+Arica y Parinacota,Primera,18,484.0,2021-06-05
+Arica y Parinacota,Primera,19,685.0,2021-06-05
+Arica y Parinacota,Primera,20,795.0,2021-06-05
+Arica y Parinacota,Primera,21,833.0,2021-06-05
+Arica y Parinacota,Primera,22,1057.0,2021-06-05
+Arica y Parinacota,Primera,23,1236.0,2021-06-05
+Arica y Parinacota,Primera,24,1766.0,2021-06-05
+Arica y Parinacota,Primera,25,1870.0,2021-06-05
+Arica y Parinacota,Primera,26,2149.0,2021-06-05
+Arica y Parinacota,Primera,27,2245.0,2021-06-05
+Arica y Parinacota,Primera,28,2218.0,2021-06-05
+Arica y Parinacota,Primera,29,2336.0,2021-06-05
+Arica y Parinacota,Primera,30,2552.0,2021-06-05
+Arica y Parinacota,Primera,31,2593.0,2021-06-05
+Arica y Parinacota,Primera,32,2527.0,2021-06-05
+Arica y Parinacota,Primera,33,2630.0,2021-06-05
+Arica y Parinacota,Primera,34,2568.0,2021-06-05
+Arica y Parinacota,Primera,35,2579.0,2021-06-05
+Arica y Parinacota,Primera,36,2520.0,2021-06-05
+Arica y Parinacota,Primera,37,2335.0,2021-06-05
+Arica y Parinacota,Primera,38,2554.0,2021-06-05
+Arica y Parinacota,Primera,39,2520.0,2021-06-05
+Arica y Parinacota,Primera,40,2379.0,2021-06-05
+Arica y Parinacota,Primera,41,2354.0,2021-06-05
+Arica y Parinacota,Primera,42,2307.0,2021-06-05
+Arica y Parinacota,Primera,43,2194.0,2021-06-05
+Arica y Parinacota,Primera,44,2307.0,2021-06-05
+Arica y Parinacota,Primera,45,2252.0,2021-06-05
+Arica y Parinacota,Primera,46,2439.0,2021-06-05
+Arica y Parinacota,Primera,47,2536.0,2021-06-05
+Arica y Parinacota,Primera,48,2595.0,2021-06-05
+Arica y Parinacota,Primera,49,2436.0,2021-06-05
+Arica y Parinacota,Primera,50,2509.0,2021-06-05
+Arica y Parinacota,Primera,51,2288.0,2021-06-05
+Arica y Parinacota,Primera,52,2172.0,2021-06-05
+Arica y Parinacota,Primera,53,2133.0,2021-06-05
+Arica y Parinacota,Primera,54,2224.0,2021-06-05
+Arica y Parinacota,Primera,55,2212.0,2021-06-05
+Arica y Parinacota,Primera,56,2300.0,2021-06-05
+Arica y Parinacota,Primera,57,2277.0,2021-06-05
+Arica y Parinacota,Primera,58,2367.0,2021-06-05
+Arica y Parinacota,Primera,59,2088.0,2021-06-05
+Arica y Parinacota,Primera,60,2143.0,2021-06-05
+Arica y Parinacota,Primera,61,2021.0,2021-06-05
+Arica y Parinacota,Primera,62,2021.0,2021-06-05
+Arica y Parinacota,Primera,63,1977.0,2021-06-05
+Arica y Parinacota,Primera,64,1919.0,2021-06-05
+Arica y Parinacota,Primera,65,1883.0,2021-06-05
+Arica y Parinacota,Primera,66,1856.0,2021-06-05
+Arica y Parinacota,Primera,67,1760.0,2021-06-05
+Arica y Parinacota,Primera,68,1604.0,2021-06-05
+Arica y Parinacota,Primera,69,1490.0,2021-06-05
+Arica y Parinacota,Primera,70,1459.0,2021-06-05
+Arica y Parinacota,Primera,71,1375.0,2021-06-05
+Arica y Parinacota,Primera,72,1356.0,2021-06-05
+Arica y Parinacota,Primera,73,1309.0,2021-06-05
+Arica y Parinacota,Primera,74,1244.0,2021-06-05
+Arica y Parinacota,Primera,75,1167.0,2021-06-05
+Arica y Parinacota,Primera,76,994.0,2021-06-05
+Arica y Parinacota,Primera,77,1070.0,2021-06-05
+Arica y Parinacota,Primera,78,912.0,2021-06-05
+Arica y Parinacota,Primera,79,758.0,2021-06-05
+Arica y Parinacota,Primera,80,5131.0,2021-06-05
+Arica y Parinacota,Segunda,15,0.0,2021-06-05
+Arica y Parinacota,Segunda,16,0.0,2021-06-05
+Arica y Parinacota,Segunda,17,0.0,2021-06-05
+Arica y Parinacota,Segunda,18,351.0,2021-06-05
+Arica y Parinacota,Segunda,19,521.0,2021-06-05
+Arica y Parinacota,Segunda,20,584.0,2021-06-05
+Arica y Parinacota,Segunda,21,598.0,2021-06-05
+Arica y Parinacota,Segunda,22,753.0,2021-06-05
+Arica y Parinacota,Segunda,23,786.0,2021-06-05
+Arica y Parinacota,Segunda,24,897.0,2021-06-05
+Arica y Parinacota,Segunda,25,966.0,2021-06-05
+Arica y Parinacota,Segunda,26,997.0,2021-06-05
+Arica y Parinacota,Segunda,27,1095.0,2021-06-05
+Arica y Parinacota,Segunda,28,1038.0,2021-06-05
+Arica y Parinacota,Segunda,29,1174.0,2021-06-05
+Arica y Parinacota,Segunda,30,1277.0,2021-06-05
+Arica y Parinacota,Segunda,31,1306.0,2021-06-05
+Arica y Parinacota,Segunda,32,1240.0,2021-06-05
+Arica y Parinacota,Segunda,33,1288.0,2021-06-05
+Arica y Parinacota,Segunda,34,1302.0,2021-06-05
+Arica y Parinacota,Segunda,35,1254.0,2021-06-05
+Arica y Parinacota,Segunda,36,1328.0,2021-06-05
+Arica y Parinacota,Segunda,37,1164.0,2021-06-05
+Arica y Parinacota,Segunda,38,1278.0,2021-06-05
+Arica y Parinacota,Segunda,39,1295.0,2021-06-05
+Arica y Parinacota,Segunda,40,1481.0,2021-06-05
+Arica y Parinacota,Segunda,41,1510.0,2021-06-05
+Arica y Parinacota,Segunda,42,1393.0,2021-06-05
+Arica y Parinacota,Segunda,43,1400.0,2021-06-05
+Arica y Parinacota,Segunda,44,1515.0,2021-06-05
+Arica y Parinacota,Segunda,45,1584.0,2021-06-05
+Arica y Parinacota,Segunda,46,1819.0,2021-06-05
+Arica y Parinacota,Segunda,47,1984.0,2021-06-05
+Arica y Parinacota,Segunda,48,2097.0,2021-06-05
+Arica y Parinacota,Segunda,49,1975.0,2021-06-05
+Arica y Parinacota,Segunda,50,2074.0,2021-06-05
+Arica y Parinacota,Segunda,51,1934.0,2021-06-05
+Arica y Parinacota,Segunda,52,1847.0,2021-06-05
+Arica y Parinacota,Segunda,53,1821.0,2021-06-05
+Arica y Parinacota,Segunda,54,1899.0,2021-06-05
+Arica y Parinacota,Segunda,55,1929.0,2021-06-05
+Arica y Parinacota,Segunda,56,2013.0,2021-06-05
+Arica y Parinacota,Segunda,57,2010.0,2021-06-05
+Arica y Parinacota,Segunda,58,2119.0,2021-06-05
+Arica y Parinacota,Segunda,59,1872.0,2021-06-05
+Arica y Parinacota,Segunda,60,1945.0,2021-06-05
+Arica y Parinacota,Segunda,61,1863.0,2021-06-05
+Arica y Parinacota,Segunda,62,1878.0,2021-06-05
+Arica y Parinacota,Segunda,63,1866.0,2021-06-05
+Arica y Parinacota,Segunda,64,1801.0,2021-06-05
+Arica y Parinacota,Segunda,65,1767.0,2021-06-05
+Arica y Parinacota,Segunda,66,1749.0,2021-06-05
+Arica y Parinacota,Segunda,67,1668.0,2021-06-05
+Arica y Parinacota,Segunda,68,1527.0,2021-06-05
+Arica y Parinacota,Segunda,69,1423.0,2021-06-05
+Arica y Parinacota,Segunda,70,1379.0,2021-06-05
+Arica y Parinacota,Segunda,71,1306.0,2021-06-05
+Arica y Parinacota,Segunda,72,1288.0,2021-06-05
+Arica y Parinacota,Segunda,73,1259.0,2021-06-05
+Arica y Parinacota,Segunda,74,1194.0,2021-06-05
+Arica y Parinacota,Segunda,75,1122.0,2021-06-05
+Arica y Parinacota,Segunda,76,949.0,2021-06-05
+Arica y Parinacota,Segunda,77,1025.0,2021-06-05
+Arica y Parinacota,Segunda,78,868.0,2021-06-05
+Arica y Parinacota,Segunda,79,719.0,2021-06-05
+Arica y Parinacota,Segunda,80,4901.0,2021-06-05
+Atacama,Primera,15,0.0,2021-06-05
+Atacama,Primera,16,0.0,2021-06-05
+Atacama,Primera,17,0.0,2021-06-05
+Atacama,Primera,18,757.0,2021-06-05
+Atacama,Primera,19,1001.0,2021-06-05
+Atacama,Primera,20,1120.0,2021-06-05
+Atacama,Primera,21,1243.0,2021-06-05
+Atacama,Primera,22,1471.0,2021-06-05
+Atacama,Primera,23,2032.0,2021-06-05
+Atacama,Primera,24,2435.0,2021-06-05
+Atacama,Primera,25,2664.0,2021-06-05
+Atacama,Primera,26,2860.0,2021-06-05
+Atacama,Primera,27,3001.0,2021-06-05
+Atacama,Primera,28,3334.0,2021-06-05
+Atacama,Primera,29,3265.0,2021-06-05
+Atacama,Primera,30,3430.0,2021-06-05
+Atacama,Primera,31,3649.0,2021-06-05
+Atacama,Primera,32,3521.0,2021-06-05
+Atacama,Primera,33,3495.0,2021-06-05
+Atacama,Primera,34,3248.0,2021-06-05
+Atacama,Primera,35,3270.0,2021-06-05
+Atacama,Primera,36,3262.0,2021-06-05
+Atacama,Primera,37,3104.0,2021-06-05
+Atacama,Primera,38,3216.0,2021-06-05
+Atacama,Primera,39,3477.0,2021-06-05
+Atacama,Primera,40,3237.0,2021-06-05
+Atacama,Primera,41,3048.0,2021-06-05
+Atacama,Primera,42,3100.0,2021-06-05
+Atacama,Primera,43,3175.0,2021-06-05
+Atacama,Primera,44,3022.0,2021-06-05
+Atacama,Primera,45,3047.0,2021-06-05
+Atacama,Primera,46,3315.0,2021-06-05
+Atacama,Primera,47,3161.0,2021-06-05
+Atacama,Primera,48,3251.0,2021-06-05
+Atacama,Primera,49,3216.0,2021-06-05
+Atacama,Primera,50,3245.0,2021-06-05
+Atacama,Primera,51,3173.0,2021-06-05
+Atacama,Primera,52,3241.0,2021-06-05
+Atacama,Primera,53,3447.0,2021-06-05
+Atacama,Primera,54,3304.0,2021-06-05
+Atacama,Primera,55,3244.0,2021-06-05
+Atacama,Primera,56,3335.0,2021-06-05
+Atacama,Primera,57,3425.0,2021-06-05
+Atacama,Primera,58,3357.0,2021-06-05
+Atacama,Primera,59,3153.0,2021-06-05
+Atacama,Primera,60,3419.0,2021-06-05
+Atacama,Primera,61,2987.0,2021-06-05
+Atacama,Primera,62,2955.0,2021-06-05
+Atacama,Primera,63,2835.0,2021-06-05
+Atacama,Primera,64,2665.0,2021-06-05
+Atacama,Primera,65,2522.0,2021-06-05
+Atacama,Primera,66,2338.0,2021-06-05
+Atacama,Primera,67,2247.0,2021-06-05
+Atacama,Primera,68,2124.0,2021-06-05
+Atacama,Primera,69,1921.0,2021-06-05
+Atacama,Primera,70,1713.0,2021-06-05
+Atacama,Primera,71,1688.0,2021-06-05
+Atacama,Primera,72,1507.0,2021-06-05
+Atacama,Primera,73,1469.0,2021-06-05
+Atacama,Primera,74,1288.0,2021-06-05
+Atacama,Primera,75,1334.0,2021-06-05
+Atacama,Primera,76,1217.0,2021-06-05
+Atacama,Primera,77,1072.0,2021-06-05
+Atacama,Primera,78,1034.0,2021-06-05
+Atacama,Primera,79,988.0,2021-06-05
+Atacama,Primera,80,6538.0,2021-06-05
+Atacama,Segunda,15,0.0,2021-06-05
+Atacama,Segunda,16,0.0,2021-06-05
+Atacama,Segunda,17,0.0,2021-06-05
+Atacama,Segunda,18,490.0,2021-06-05
+Atacama,Segunda,19,676.0,2021-06-05
+Atacama,Segunda,20,738.0,2021-06-05
+Atacama,Segunda,21,822.0,2021-06-05
+Atacama,Segunda,22,946.0,2021-06-05
+Atacama,Segunda,23,978.0,2021-06-05
+Atacama,Segunda,24,1214.0,2021-06-05
+Atacama,Segunda,25,1304.0,2021-06-05
+Atacama,Segunda,26,1348.0,2021-06-05
+Atacama,Segunda,27,1433.0,2021-06-05
+Atacama,Segunda,28,1662.0,2021-06-05
+Atacama,Segunda,29,1595.0,2021-06-05
+Atacama,Segunda,30,1706.0,2021-06-05
+Atacama,Segunda,31,1843.0,2021-06-05
+Atacama,Segunda,32,1748.0,2021-06-05
+Atacama,Segunda,33,1731.0,2021-06-05
+Atacama,Segunda,34,1625.0,2021-06-05
+Atacama,Segunda,35,1653.0,2021-06-05
+Atacama,Segunda,36,1601.0,2021-06-05
+Atacama,Segunda,37,1551.0,2021-06-05
+Atacama,Segunda,38,1613.0,2021-06-05
+Atacama,Segunda,39,1720.0,2021-06-05
+Atacama,Segunda,40,1887.0,2021-06-05
+Atacama,Segunda,41,1905.0,2021-06-05
+Atacama,Segunda,42,2013.0,2021-06-05
+Atacama,Segunda,43,2156.0,2021-06-05
+Atacama,Segunda,44,2125.0,2021-06-05
+Atacama,Segunda,45,2143.0,2021-06-05
+Atacama,Segunda,46,2436.0,2021-06-05
+Atacama,Segunda,47,2455.0,2021-06-05
+Atacama,Segunda,48,2575.0,2021-06-05
+Atacama,Segunda,49,2614.0,2021-06-05
+Atacama,Segunda,50,2679.0,2021-06-05
+Atacama,Segunda,51,2634.0,2021-06-05
+Atacama,Segunda,52,2672.0,2021-06-05
+Atacama,Segunda,53,2921.0,2021-06-05
+Atacama,Segunda,54,2774.0,2021-06-05
+Atacama,Segunda,55,2756.0,2021-06-05
+Atacama,Segunda,56,2866.0,2021-06-05
+Atacama,Segunda,57,2950.0,2021-06-05
+Atacama,Segunda,58,2930.0,2021-06-05
+Atacama,Segunda,59,2759.0,2021-06-05
+Atacama,Segunda,60,3140.0,2021-06-05
+Atacama,Segunda,61,2723.0,2021-06-05
+Atacama,Segunda,62,2723.0,2021-06-05
+Atacama,Segunda,63,2635.0,2021-06-05
+Atacama,Segunda,64,2477.0,2021-06-05
+Atacama,Segunda,65,2345.0,2021-06-05
+Atacama,Segunda,66,2206.0,2021-06-05
+Atacama,Segunda,67,2120.0,2021-06-05
+Atacama,Segunda,68,1998.0,2021-06-05
+Atacama,Segunda,69,1813.0,2021-06-05
+Atacama,Segunda,70,1642.0,2021-06-05
+Atacama,Segunda,71,1608.0,2021-06-05
+Atacama,Segunda,72,1447.0,2021-06-05
+Atacama,Segunda,73,1405.0,2021-06-05
+Atacama,Segunda,74,1227.0,2021-06-05
+Atacama,Segunda,75,1278.0,2021-06-05
+Atacama,Segunda,76,1167.0,2021-06-05
+Atacama,Segunda,77,1026.0,2021-06-05
+Atacama,Segunda,78,1000.0,2021-06-05
+Atacama,Segunda,79,941.0,2021-06-05
+Atacama,Segunda,80,6183.0,2021-06-05
+Aysén,Primera,15,0.0,2021-06-05
+Aysén,Primera,16,0.0,2021-06-05
+Aysén,Primera,17,0.0,2021-06-05
+Aysén,Primera,18,508.0,2021-06-05
+Aysén,Primera,19,550.0,2021-06-05
+Aysén,Primera,20,411.0,2021-06-05
+Aysén,Primera,21,461.0,2021-06-05
+Aysén,Primera,22,510.0,2021-06-05
+Aysén,Primera,23,845.0,2021-06-05
+Aysén,Primera,24,899.0,2021-06-05
+Aysén,Primera,25,1042.0,2021-06-05
+Aysén,Primera,26,1161.0,2021-06-05
+Aysén,Primera,27,1192.0,2021-06-05
+Aysén,Primera,28,1217.0,2021-06-05
+Aysén,Primera,29,1334.0,2021-06-05
+Aysén,Primera,30,1448.0,2021-06-05
+Aysén,Primera,31,1470.0,2021-06-05
+Aysén,Primera,32,1488.0,2021-06-05
+Aysén,Primera,33,1383.0,2021-06-05
+Aysén,Primera,34,1326.0,2021-06-05
+Aysén,Primera,35,1357.0,2021-06-05
+Aysén,Primera,36,1339.0,2021-06-05
+Aysén,Primera,37,1321.0,2021-06-05
+Aysén,Primera,38,1297.0,2021-06-05
+Aysén,Primera,39,1315.0,2021-06-05
+Aysén,Primera,40,1366.0,2021-06-05
+Aysén,Primera,41,1313.0,2021-06-05
+Aysén,Primera,42,1320.0,2021-06-05
+Aysén,Primera,43,1282.0,2021-06-05
+Aysén,Primera,44,1232.0,2021-06-05
+Aysén,Primera,45,1303.0,2021-06-05
+Aysén,Primera,46,1216.0,2021-06-05
+Aysén,Primera,47,1234.0,2021-06-05
+Aysén,Primera,48,1190.0,2021-06-05
+Aysén,Primera,49,1222.0,2021-06-05
+Aysén,Primera,50,1197.0,2021-06-05
+Aysén,Primera,51,1196.0,2021-06-05
+Aysén,Primera,52,1124.0,2021-06-05
+Aysén,Primera,53,1172.0,2021-06-05
+Aysén,Primera,54,1215.0,2021-06-05
+Aysén,Primera,55,1198.0,2021-06-05
+Aysén,Primera,56,1165.0,2021-06-05
+Aysén,Primera,57,1131.0,2021-06-05
+Aysén,Primera,58,1096.0,2021-06-05
+Aysén,Primera,59,1101.0,2021-06-05
+Aysén,Primera,60,1088.0,2021-06-05
+Aysén,Primera,61,1055.0,2021-06-05
+Aysén,Primera,62,973.0,2021-06-05
+Aysén,Primera,63,984.0,2021-06-05
+Aysén,Primera,64,967.0,2021-06-05
+Aysén,Primera,65,906.0,2021-06-05
+Aysén,Primera,66,834.0,2021-06-05
+Aysén,Primera,67,765.0,2021-06-05
+Aysén,Primera,68,761.0,2021-06-05
+Aysén,Primera,69,665.0,2021-06-05
+Aysén,Primera,70,614.0,2021-06-05
+Aysén,Primera,71,549.0,2021-06-05
+Aysén,Primera,72,500.0,2021-06-05
+Aysén,Primera,73,494.0,2021-06-05
+Aysén,Primera,74,459.0,2021-06-05
+Aysén,Primera,75,422.0,2021-06-05
+Aysén,Primera,76,384.0,2021-06-05
+Aysén,Primera,77,359.0,2021-06-05
+Aysén,Primera,78,359.0,2021-06-05
+Aysén,Primera,79,307.0,2021-06-05
+Aysén,Primera,80,2111.0,2021-06-05
+Aysén,Segunda,15,0.0,2021-06-05
+Aysén,Segunda,16,0.0,2021-06-05
+Aysén,Segunda,17,0.0,2021-06-05
+Aysén,Segunda,18,230.0,2021-06-05
+Aysén,Segunda,19,358.0,2021-06-05
+Aysén,Segunda,20,256.0,2021-06-05
+Aysén,Segunda,21,305.0,2021-06-05
+Aysén,Segunda,22,315.0,2021-06-05
+Aysén,Segunda,23,373.0,2021-06-05
+Aysén,Segunda,24,434.0,2021-06-05
+Aysén,Segunda,25,560.0,2021-06-05
+Aysén,Segunda,26,599.0,2021-06-05
+Aysén,Segunda,27,669.0,2021-06-05
+Aysén,Segunda,28,685.0,2021-06-05
+Aysén,Segunda,29,773.0,2021-06-05
+Aysén,Segunda,30,840.0,2021-06-05
+Aysén,Segunda,31,854.0,2021-06-05
+Aysén,Segunda,32,882.0,2021-06-05
+Aysén,Segunda,33,782.0,2021-06-05
+Aysén,Segunda,34,800.0,2021-06-05
+Aysén,Segunda,35,819.0,2021-06-05
+Aysén,Segunda,36,804.0,2021-06-05
+Aysén,Segunda,37,800.0,2021-06-05
+Aysén,Segunda,38,803.0,2021-06-05
+Aysén,Segunda,39,774.0,2021-06-05
+Aysén,Segunda,40,925.0,2021-06-05
+Aysén,Segunda,41,886.0,2021-06-05
+Aysén,Segunda,42,916.0,2021-06-05
+Aysén,Segunda,43,920.0,2021-06-05
+Aysén,Segunda,44,895.0,2021-06-05
+Aysén,Segunda,45,968.0,2021-06-05
+Aysén,Segunda,46,925.0,2021-06-05
+Aysén,Segunda,47,963.0,2021-06-05
+Aysén,Segunda,48,965.0,2021-06-05
+Aysén,Segunda,49,981.0,2021-06-05
+Aysén,Segunda,50,967.0,2021-06-05
+Aysén,Segunda,51,959.0,2021-06-05
+Aysén,Segunda,52,909.0,2021-06-05
+Aysén,Segunda,53,948.0,2021-06-05
+Aysén,Segunda,54,1014.0,2021-06-05
+Aysén,Segunda,55,1004.0,2021-06-05
+Aysén,Segunda,56,976.0,2021-06-05
+Aysén,Segunda,57,954.0,2021-06-05
+Aysén,Segunda,58,939.0,2021-06-05
+Aysén,Segunda,59,979.0,2021-06-05
+Aysén,Segunda,60,956.0,2021-06-05
+Aysén,Segunda,61,932.0,2021-06-05
+Aysén,Segunda,62,847.0,2021-06-05
+Aysén,Segunda,63,876.0,2021-06-05
+Aysén,Segunda,64,882.0,2021-06-05
+Aysén,Segunda,65,836.0,2021-06-05
+Aysén,Segunda,66,770.0,2021-06-05
+Aysén,Segunda,67,698.0,2021-06-05
+Aysén,Segunda,68,712.0,2021-06-05
+Aysén,Segunda,69,629.0,2021-06-05
+Aysén,Segunda,70,591.0,2021-06-05
+Aysén,Segunda,71,525.0,2021-06-05
+Aysén,Segunda,72,465.0,2021-06-05
+Aysén,Segunda,73,469.0,2021-06-05
+Aysén,Segunda,74,426.0,2021-06-05
+Aysén,Segunda,75,397.0,2021-06-05
+Aysén,Segunda,76,363.0,2021-06-05
+Aysén,Segunda,77,339.0,2021-06-05
+Aysén,Segunda,78,337.0,2021-06-05
+Aysén,Segunda,79,289.0,2021-06-05
+Aysén,Segunda,80,1996.0,2021-06-05
+Biobío,Primera,15,0.0,2021-06-05
+Biobío,Primera,16,0.0,2021-06-05
+Biobío,Primera,17,0.0,2021-06-05
+Biobío,Primera,18,4034.0,2021-06-05
+Biobío,Primera,19,4366.0,2021-06-05
+Biobío,Primera,20,4886.0,2021-06-05
+Biobío,Primera,21,5423.0,2021-06-05
+Biobío,Primera,22,6644.0,2021-06-05
+Biobío,Primera,23,14313.0,2021-06-05
+Biobío,Primera,24,15152.0,2021-06-05
+Biobío,Primera,25,15476.0,2021-06-05
+Biobío,Primera,26,17150.0,2021-06-05
+Biobío,Primera,27,17262.0,2021-06-05
+Biobío,Primera,28,18158.0,2021-06-05
+Biobío,Primera,29,18724.0,2021-06-05
+Biobío,Primera,30,19190.0,2021-06-05
+Biobío,Primera,31,19396.0,2021-06-05
+Biobío,Primera,32,18746.0,2021-06-05
+Biobío,Primera,33,17829.0,2021-06-05
+Biobío,Primera,34,17625.0,2021-06-05
+Biobío,Primera,35,16915.0,2021-06-05
+Biobío,Primera,36,16449.0,2021-06-05
+Biobío,Primera,37,16609.0,2021-06-05
+Biobío,Primera,38,17494.0,2021-06-05
+Biobío,Primera,39,17966.0,2021-06-05
+Biobío,Primera,40,17350.0,2021-06-05
+Biobío,Primera,41,17006.0,2021-06-05
+Biobío,Primera,42,16366.0,2021-06-05
+Biobío,Primera,43,16154.0,2021-06-05
+Biobío,Primera,44,16148.0,2021-06-05
+Biobío,Primera,45,17378.0,2021-06-05
+Biobío,Primera,46,18056.0,2021-06-05
+Biobío,Primera,47,18613.0,2021-06-05
+Biobío,Primera,48,19159.0,2021-06-05
+Biobío,Primera,49,19004.0,2021-06-05
+Biobío,Primera,50,18626.0,2021-06-05
+Biobío,Primera,51,18433.0,2021-06-05
+Biobío,Primera,52,19072.0,2021-06-05
+Biobío,Primera,53,19789.0,2021-06-05
+Biobío,Primera,54,19818.0,2021-06-05
+Biobío,Primera,55,19856.0,2021-06-05
+Biobío,Primera,56,19614.0,2021-06-05
+Biobío,Primera,57,19060.0,2021-06-05
+Biobío,Primera,58,19048.0,2021-06-05
+Biobío,Primera,59,18823.0,2021-06-05
+Biobío,Primera,60,18401.0,2021-06-05
+Biobío,Primera,61,17257.0,2021-06-05
+Biobío,Primera,62,16563.0,2021-06-05
+Biobío,Primera,63,16216.0,2021-06-05
+Biobío,Primera,64,15479.0,2021-06-05
+Biobío,Primera,65,15053.0,2021-06-05
+Biobío,Primera,66,14109.0,2021-06-05
+Biobío,Primera,67,14277.0,2021-06-05
+Biobío,Primera,68,13072.0,2021-06-05
+Biobío,Primera,69,11959.0,2021-06-05
+Biobío,Primera,70,11196.0,2021-06-05
+Biobío,Primera,71,10688.0,2021-06-05
+Biobío,Primera,72,10219.0,2021-06-05
+Biobío,Primera,73,9655.0,2021-06-05
+Biobío,Primera,74,9198.0,2021-06-05
+Biobío,Primera,75,8819.0,2021-06-05
+Biobío,Primera,76,7910.0,2021-06-05
+Biobío,Primera,77,7367.0,2021-06-05
+Biobío,Primera,78,6931.0,2021-06-05
+Biobío,Primera,79,6422.0,2021-06-05
+Biobío,Primera,80,43904.0,2021-06-05
+Biobío,Segunda,15,0.0,2021-06-05
+Biobío,Segunda,16,0.0,2021-06-05
+Biobío,Segunda,17,0.0,2021-06-05
+Biobío,Segunda,18,3047.0,2021-06-05
+Biobío,Segunda,19,3470.0,2021-06-05
+Biobío,Segunda,20,3897.0,2021-06-05
+Biobío,Segunda,21,4422.0,2021-06-05
+Biobío,Segunda,22,5281.0,2021-06-05
+Biobío,Segunda,23,6432.0,2021-06-05
+Biobío,Segunda,24,7132.0,2021-06-05
+Biobío,Segunda,25,7483.0,2021-06-05
+Biobío,Segunda,26,7969.0,2021-06-05
+Biobío,Segunda,27,8413.0,2021-06-05
+Biobío,Segunda,28,8981.0,2021-06-05
+Biobío,Segunda,29,9478.0,2021-06-05
+Biobío,Segunda,30,9732.0,2021-06-05
+Biobío,Segunda,31,9909.0,2021-06-05
+Biobío,Segunda,32,9473.0,2021-06-05
+Biobío,Segunda,33,9083.0,2021-06-05
+Biobío,Segunda,34,9019.0,2021-06-05
+Biobío,Segunda,35,8601.0,2021-06-05
+Biobío,Segunda,36,8395.0,2021-06-05
+Biobío,Segunda,37,8525.0,2021-06-05
+Biobío,Segunda,38,8933.0,2021-06-05
+Biobío,Segunda,39,9113.0,2021-06-05
+Biobío,Segunda,40,10953.0,2021-06-05
+Biobío,Segunda,41,11433.0,2021-06-05
+Biobío,Segunda,42,11434.0,2021-06-05
+Biobío,Segunda,43,11561.0,2021-06-05
+Biobío,Segunda,44,12054.0,2021-06-05
+Biobío,Segunda,45,13820.0,2021-06-05
+Biobío,Segunda,46,14798.0,2021-06-05
+Biobío,Segunda,47,15743.0,2021-06-05
+Biobío,Segunda,48,16646.0,2021-06-05
+Biobío,Segunda,49,16758.0,2021-06-05
+Biobío,Segunda,50,16610.0,2021-06-05
+Biobío,Segunda,51,16518.0,2021-06-05
+Biobío,Segunda,52,17227.0,2021-06-05
+Biobío,Segunda,53,18015.0,2021-06-05
+Biobío,Segunda,54,18107.0,2021-06-05
+Biobío,Segunda,55,18239.0,2021-06-05
+Biobío,Segunda,56,18130.0,2021-06-05
+Biobío,Segunda,57,17701.0,2021-06-05
+Biobío,Segunda,58,17731.0,2021-06-05
+Biobío,Segunda,59,17614.0,2021-06-05
+Biobío,Segunda,60,17380.0,2021-06-05
+Biobío,Segunda,61,16401.0,2021-06-05
+Biobío,Segunda,62,15755.0,2021-06-05
+Biobío,Segunda,63,15511.0,2021-06-05
+Biobío,Segunda,64,14811.0,2021-06-05
+Biobío,Segunda,65,14506.0,2021-06-05
+Biobío,Segunda,66,13659.0,2021-06-05
+Biobío,Segunda,67,13848.0,2021-06-05
+Biobío,Segunda,68,12640.0,2021-06-05
+Biobío,Segunda,69,11629.0,2021-06-05
+Biobío,Segunda,70,10901.0,2021-06-05
+Biobío,Segunda,71,10369.0,2021-06-05
+Biobío,Segunda,72,9962.0,2021-06-05
+Biobío,Segunda,73,9396.0,2021-06-05
+Biobío,Segunda,74,8937.0,2021-06-05
+Biobío,Segunda,75,8564.0,2021-06-05
+Biobío,Segunda,76,7697.0,2021-06-05
+Biobío,Segunda,77,7199.0,2021-06-05
+Biobío,Segunda,78,6742.0,2021-06-05
+Biobío,Segunda,79,6256.0,2021-06-05
+Biobío,Segunda,80,42681.0,2021-06-05
+Coquimbo,Primera,15,0.0,2021-06-05
+Coquimbo,Primera,16,0.0,2021-06-05
+Coquimbo,Primera,17,0.0,2021-06-05
+Coquimbo,Primera,18,1761.0,2021-06-05
+Coquimbo,Primera,19,2066.0,2021-06-05
+Coquimbo,Primera,20,2350.0,2021-06-05
+Coquimbo,Primera,21,2607.0,2021-06-05
+Coquimbo,Primera,22,3000.0,2021-06-05
+Coquimbo,Primera,23,4883.0,2021-06-05
+Coquimbo,Primera,24,5962.0,2021-06-05
+Coquimbo,Primera,25,6626.0,2021-06-05
+Coquimbo,Primera,26,7503.0,2021-06-05
+Coquimbo,Primera,27,7999.0,2021-06-05
+Coquimbo,Primera,28,8189.0,2021-06-05
+Coquimbo,Primera,29,8408.0,2021-06-05
+Coquimbo,Primera,30,8975.0,2021-06-05
+Coquimbo,Primera,31,9120.0,2021-06-05
+Coquimbo,Primera,32,9146.0,2021-06-05
+Coquimbo,Primera,33,8855.0,2021-06-05
+Coquimbo,Primera,34,8660.0,2021-06-05
+Coquimbo,Primera,35,8593.0,2021-06-05
+Coquimbo,Primera,36,8512.0,2021-06-05
+Coquimbo,Primera,37,8366.0,2021-06-05
+Coquimbo,Primera,38,8539.0,2021-06-05
+Coquimbo,Primera,39,8962.0,2021-06-05
+Coquimbo,Primera,40,8651.0,2021-06-05
+Coquimbo,Primera,41,8351.0,2021-06-05
+Coquimbo,Primera,42,8467.0,2021-06-05
+Coquimbo,Primera,43,8296.0,2021-06-05
+Coquimbo,Primera,44,8402.0,2021-06-05
+Coquimbo,Primera,45,8829.0,2021-06-05
+Coquimbo,Primera,46,9194.0,2021-06-05
+Coquimbo,Primera,47,8993.0,2021-06-05
+Coquimbo,Primera,48,9065.0,2021-06-05
+Coquimbo,Primera,49,9025.0,2021-06-05
+Coquimbo,Primera,50,8657.0,2021-06-05
+Coquimbo,Primera,51,8789.0,2021-06-05
+Coquimbo,Primera,52,9108.0,2021-06-05
+Coquimbo,Primera,53,9419.0,2021-06-05
+Coquimbo,Primera,54,9111.0,2021-06-05
+Coquimbo,Primera,55,9234.0,2021-06-05
+Coquimbo,Primera,56,9082.0,2021-06-05
+Coquimbo,Primera,57,8861.0,2021-06-05
+Coquimbo,Primera,58,9156.0,2021-06-05
+Coquimbo,Primera,59,8583.0,2021-06-05
+Coquimbo,Primera,60,8984.0,2021-06-05
+Coquimbo,Primera,61,8145.0,2021-06-05
+Coquimbo,Primera,62,8071.0,2021-06-05
+Coquimbo,Primera,63,7737.0,2021-06-05
+Coquimbo,Primera,64,7404.0,2021-06-05
+Coquimbo,Primera,65,7724.0,2021-06-05
+Coquimbo,Primera,66,7155.0,2021-06-05
+Coquimbo,Primera,67,6955.0,2021-06-05
+Coquimbo,Primera,68,6321.0,2021-06-05
+Coquimbo,Primera,69,5882.0,2021-06-05
+Coquimbo,Primera,70,5609.0,2021-06-05
+Coquimbo,Primera,71,5158.0,2021-06-05
+Coquimbo,Primera,72,5066.0,2021-06-05
+Coquimbo,Primera,73,4658.0,2021-06-05
+Coquimbo,Primera,74,4166.0,2021-06-05
+Coquimbo,Primera,75,4358.0,2021-06-05
+Coquimbo,Primera,76,3983.0,2021-06-05
+Coquimbo,Primera,77,3787.0,2021-06-05
+Coquimbo,Primera,78,3613.0,2021-06-05
+Coquimbo,Primera,79,3193.0,2021-06-05
+Coquimbo,Primera,80,22408.0,2021-06-05
+Coquimbo,Segunda,15,0.0,2021-06-05
+Coquimbo,Segunda,16,0.0,2021-06-05
+Coquimbo,Segunda,17,0.0,2021-06-05
+Coquimbo,Segunda,18,1262.0,2021-06-05
+Coquimbo,Segunda,19,1599.0,2021-06-05
+Coquimbo,Segunda,20,1769.0,2021-06-05
+Coquimbo,Segunda,21,1937.0,2021-06-05
+Coquimbo,Segunda,22,2200.0,2021-06-05
+Coquimbo,Segunda,23,2418.0,2021-06-05
+Coquimbo,Segunda,24,2795.0,2021-06-05
+Coquimbo,Segunda,25,3029.0,2021-06-05
+Coquimbo,Segunda,26,3187.0,2021-06-05
+Coquimbo,Segunda,27,3486.0,2021-06-05
+Coquimbo,Segunda,28,3593.0,2021-06-05
+Coquimbo,Segunda,29,3787.0,2021-06-05
+Coquimbo,Segunda,30,4007.0,2021-06-05
+Coquimbo,Segunda,31,4113.0,2021-06-05
+Coquimbo,Segunda,32,4059.0,2021-06-05
+Coquimbo,Segunda,33,3938.0,2021-06-05
+Coquimbo,Segunda,34,3975.0,2021-06-05
+Coquimbo,Segunda,35,3940.0,2021-06-05
+Coquimbo,Segunda,36,3874.0,2021-06-05
+Coquimbo,Segunda,37,3729.0,2021-06-05
+Coquimbo,Segunda,38,3843.0,2021-06-05
+Coquimbo,Segunda,39,3955.0,2021-06-05
+Coquimbo,Segunda,40,5011.0,2021-06-05
+Coquimbo,Segunda,41,5043.0,2021-06-05
+Coquimbo,Segunda,42,5422.0,2021-06-05
+Coquimbo,Segunda,43,5564.0,2021-06-05
+Coquimbo,Segunda,44,5915.0,2021-06-05
+Coquimbo,Segunda,45,6639.0,2021-06-05
+Coquimbo,Segunda,46,7206.0,2021-06-05
+Coquimbo,Segunda,47,7420.0,2021-06-05
+Coquimbo,Segunda,48,7789.0,2021-06-05
+Coquimbo,Segunda,49,7738.0,2021-06-05
+Coquimbo,Segunda,50,7626.0,2021-06-05
+Coquimbo,Segunda,51,7801.0,2021-06-05
+Coquimbo,Segunda,52,8109.0,2021-06-05
+Coquimbo,Segunda,53,8410.0,2021-06-05
+Coquimbo,Segunda,54,8198.0,2021-06-05
+Coquimbo,Segunda,55,8372.0,2021-06-05
+Coquimbo,Segunda,56,8265.0,2021-06-05
+Coquimbo,Segunda,57,8117.0,2021-06-05
+Coquimbo,Segunda,58,8424.0,2021-06-05
+Coquimbo,Segunda,59,7973.0,2021-06-05
+Coquimbo,Segunda,60,8409.0,2021-06-05
+Coquimbo,Segunda,61,7626.0,2021-06-05
+Coquimbo,Segunda,62,7617.0,2021-06-05
+Coquimbo,Segunda,63,7328.0,2021-06-05
+Coquimbo,Segunda,64,7010.0,2021-06-05
+Coquimbo,Segunda,65,7348.0,2021-06-05
+Coquimbo,Segunda,66,6854.0,2021-06-05
+Coquimbo,Segunda,67,6709.0,2021-06-05
+Coquimbo,Segunda,68,6073.0,2021-06-05
+Coquimbo,Segunda,69,5683.0,2021-06-05
+Coquimbo,Segunda,70,5418.0,2021-06-05
+Coquimbo,Segunda,71,4991.0,2021-06-05
+Coquimbo,Segunda,72,4873.0,2021-06-05
+Coquimbo,Segunda,73,4505.0,2021-06-05
+Coquimbo,Segunda,74,4033.0,2021-06-05
+Coquimbo,Segunda,75,4216.0,2021-06-05
+Coquimbo,Segunda,76,3853.0,2021-06-05
+Coquimbo,Segunda,77,3666.0,2021-06-05
+Coquimbo,Segunda,78,3486.0,2021-06-05
+Coquimbo,Segunda,79,3090.0,2021-06-05
+Coquimbo,Segunda,80,21535.0,2021-06-05
+Ignorada,Primera,15,0.0,2021-06-05
+Ignorada,Primera,16,0.0,2021-06-05
+Ignorada,Primera,17,0.0,2021-06-05
+Ignorada,Primera,18,0.0,2021-06-05
+Ignorada,Primera,19,0.0,2021-06-05
+Ignorada,Primera,20,1.0,2021-06-05
+Ignorada,Primera,21,1.0,2021-06-05
+Ignorada,Primera,22,1.0,2021-06-05
+Ignorada,Primera,23,4.0,2021-06-05
+Ignorada,Primera,24,0.0,2021-06-05
+Ignorada,Primera,25,3.0,2021-06-05
+Ignorada,Primera,26,2.0,2021-06-05
+Ignorada,Primera,27,5.0,2021-06-05
+Ignorada,Primera,28,0.0,2021-06-05
+Ignorada,Primera,29,4.0,2021-06-05
+Ignorada,Primera,30,2.0,2021-06-05
+Ignorada,Primera,31,5.0,2021-06-05
+Ignorada,Primera,32,5.0,2021-06-05
+Ignorada,Primera,33,2.0,2021-06-05
+Ignorada,Primera,34,0.0,2021-06-05
+Ignorada,Primera,35,4.0,2021-06-05
+Ignorada,Primera,36,1.0,2021-06-05
+Ignorada,Primera,37,1.0,2021-06-05
+Ignorada,Primera,38,4.0,2021-06-05
+Ignorada,Primera,39,3.0,2021-06-05
+Ignorada,Primera,40,1.0,2021-06-05
+Ignorada,Primera,41,1.0,2021-06-05
+Ignorada,Primera,42,3.0,2021-06-05
+Ignorada,Primera,43,1.0,2021-06-05
+Ignorada,Primera,44,2.0,2021-06-05
+Ignorada,Primera,45,1.0,2021-06-05
+Ignorada,Primera,46,1.0,2021-06-05
+Ignorada,Primera,47,2.0,2021-06-05
+Ignorada,Primera,48,3.0,2021-06-05
+Ignorada,Primera,49,1.0,2021-06-05
+Ignorada,Primera,50,1.0,2021-06-05
+Ignorada,Primera,51,3.0,2021-06-05
+Ignorada,Primera,52,1.0,2021-06-05
+Ignorada,Primera,53,0.0,2021-06-05
+Ignorada,Primera,54,0.0,2021-06-05
+Ignorada,Primera,55,1.0,2021-06-05
+Ignorada,Primera,56,0.0,2021-06-05
+Ignorada,Primera,57,2.0,2021-06-05
+Ignorada,Primera,58,4.0,2021-06-05
+Ignorada,Primera,59,1.0,2021-06-05
+Ignorada,Primera,60,2.0,2021-06-05
+Ignorada,Primera,61,1.0,2021-06-05
+Ignorada,Primera,62,4.0,2021-06-05
+Ignorada,Primera,63,0.0,2021-06-05
+Ignorada,Primera,64,1.0,2021-06-05
+Ignorada,Primera,65,0.0,2021-06-05
+Ignorada,Primera,66,2.0,2021-06-05
+Ignorada,Primera,67,1.0,2021-06-05
+Ignorada,Primera,68,0.0,2021-06-05
+Ignorada,Primera,69,0.0,2021-06-05
+Ignorada,Primera,70,1.0,2021-06-05
+Ignorada,Primera,71,1.0,2021-06-05
+Ignorada,Primera,72,1.0,2021-06-05
+Ignorada,Primera,73,0.0,2021-06-05
+Ignorada,Primera,74,1.0,2021-06-05
+Ignorada,Primera,75,2.0,2021-06-05
+Ignorada,Primera,76,0.0,2021-06-05
+Ignorada,Primera,77,0.0,2021-06-05
+Ignorada,Primera,78,0.0,2021-06-05
+Ignorada,Primera,79,0.0,2021-06-05
+Ignorada,Primera,80,0.0,2021-06-05
+Ignorada,Segunda,15,0.0,2021-06-05
+Ignorada,Segunda,16,0.0,2021-06-05
+Ignorada,Segunda,17,0.0,2021-06-05
+Ignorada,Segunda,18,0.0,2021-06-05
+Ignorada,Segunda,19,0.0,2021-06-05
+Ignorada,Segunda,20,1.0,2021-06-05
+Ignorada,Segunda,21,0.0,2021-06-05
+Ignorada,Segunda,22,1.0,2021-06-05
+Ignorada,Segunda,23,2.0,2021-06-05
+Ignorada,Segunda,24,0.0,2021-06-05
+Ignorada,Segunda,25,2.0,2021-06-05
+Ignorada,Segunda,26,0.0,2021-06-05
+Ignorada,Segunda,27,4.0,2021-06-05
+Ignorada,Segunda,28,0.0,2021-06-05
+Ignorada,Segunda,29,2.0,2021-06-05
+Ignorada,Segunda,30,1.0,2021-06-05
+Ignorada,Segunda,31,2.0,2021-06-05
+Ignorada,Segunda,32,1.0,2021-06-05
+Ignorada,Segunda,33,2.0,2021-06-05
+Ignorada,Segunda,34,0.0,2021-06-05
+Ignorada,Segunda,35,0.0,2021-06-05
+Ignorada,Segunda,36,0.0,2021-06-05
+Ignorada,Segunda,37,0.0,2021-06-05
+Ignorada,Segunda,38,1.0,2021-06-05
+Ignorada,Segunda,39,1.0,2021-06-05
+Ignorada,Segunda,40,1.0,2021-06-05
+Ignorada,Segunda,41,0.0,2021-06-05
+Ignorada,Segunda,42,2.0,2021-06-05
+Ignorada,Segunda,43,1.0,2021-06-05
+Ignorada,Segunda,44,1.0,2021-06-05
+Ignorada,Segunda,45,1.0,2021-06-05
+Ignorada,Segunda,46,0.0,2021-06-05
+Ignorada,Segunda,47,1.0,2021-06-05
+Ignorada,Segunda,48,2.0,2021-06-05
+Ignorada,Segunda,49,1.0,2021-06-05
+Ignorada,Segunda,50,1.0,2021-06-05
+Ignorada,Segunda,51,3.0,2021-06-05
+Ignorada,Segunda,52,1.0,2021-06-05
+Ignorada,Segunda,53,0.0,2021-06-05
+Ignorada,Segunda,54,0.0,2021-06-05
+Ignorada,Segunda,55,1.0,2021-06-05
+Ignorada,Segunda,56,0.0,2021-06-05
+Ignorada,Segunda,57,2.0,2021-06-05
+Ignorada,Segunda,58,4.0,2021-06-05
+Ignorada,Segunda,59,1.0,2021-06-05
+Ignorada,Segunda,60,2.0,2021-06-05
+Ignorada,Segunda,61,1.0,2021-06-05
+Ignorada,Segunda,62,2.0,2021-06-05
+Ignorada,Segunda,63,0.0,2021-06-05
+Ignorada,Segunda,64,1.0,2021-06-05
+Ignorada,Segunda,65,0.0,2021-06-05
+Ignorada,Segunda,66,1.0,2021-06-05
+Ignorada,Segunda,67,1.0,2021-06-05
+Ignorada,Segunda,68,0.0,2021-06-05
+Ignorada,Segunda,69,0.0,2021-06-05
+Ignorada,Segunda,70,1.0,2021-06-05
+Ignorada,Segunda,71,1.0,2021-06-05
+Ignorada,Segunda,72,1.0,2021-06-05
+Ignorada,Segunda,73,0.0,2021-06-05
+Ignorada,Segunda,74,1.0,2021-06-05
+Ignorada,Segunda,75,2.0,2021-06-05
+Ignorada,Segunda,76,0.0,2021-06-05
+Ignorada,Segunda,77,0.0,2021-06-05
+Ignorada,Segunda,78,0.0,2021-06-05
+Ignorada,Segunda,79,0.0,2021-06-05
+Ignorada,Segunda,80,0.0,2021-06-05
+Araucanía,Primera,15,0.0,2021-06-05
+Araucanía,Primera,16,0.0,2021-06-05
+Araucanía,Primera,17,0.0,2021-06-05
+Araucanía,Primera,18,2042.0,2021-06-05
+Araucanía,Primera,19,2361.0,2021-06-05
+Araucanía,Primera,20,2883.0,2021-06-05
+Araucanía,Primera,21,3123.0,2021-06-05
+Araucanía,Primera,22,3791.0,2021-06-05
+Araucanía,Primera,23,7291.0,2021-06-05
+Araucanía,Primera,24,8015.0,2021-06-05
+Araucanía,Primera,25,8481.0,2021-06-05
+Araucanía,Primera,26,9651.0,2021-06-05
+Araucanía,Primera,27,10095.0,2021-06-05
+Araucanía,Primera,28,10225.0,2021-06-05
+Araucanía,Primera,29,10561.0,2021-06-05
+Araucanía,Primera,30,11021.0,2021-06-05
+Araucanía,Primera,31,11079.0,2021-06-05
+Araucanía,Primera,32,10706.0,2021-06-05
+Araucanía,Primera,33,10389.0,2021-06-05
+Araucanía,Primera,34,9967.0,2021-06-05
+Araucanía,Primera,35,10339.0,2021-06-05
+Araucanía,Primera,36,9996.0,2021-06-05
+Araucanía,Primera,37,10076.0,2021-06-05
+Araucanía,Primera,38,10580.0,2021-06-05
+Araucanía,Primera,39,10702.0,2021-06-05
+Araucanía,Primera,40,9912.0,2021-06-05
+Araucanía,Primera,41,10162.0,2021-06-05
+Araucanía,Primera,42,9658.0,2021-06-05
+Araucanía,Primera,43,9817.0,2021-06-05
+Araucanía,Primera,44,9929.0,2021-06-05
+Araucanía,Primera,45,10583.0,2021-06-05
+Araucanía,Primera,46,11247.0,2021-06-05
+Araucanía,Primera,47,11427.0,2021-06-05
+Araucanía,Primera,48,11535.0,2021-06-05
+Araucanía,Primera,49,11235.0,2021-06-05
+Araucanía,Primera,50,11589.0,2021-06-05
+Araucanía,Primera,51,11179.0,2021-06-05
+Araucanía,Primera,52,11362.0,2021-06-05
+Araucanía,Primera,53,11363.0,2021-06-05
+Araucanía,Primera,54,11575.0,2021-06-05
+Araucanía,Primera,55,11712.0,2021-06-05
+Araucanía,Primera,56,11421.0,2021-06-05
+Araucanía,Primera,57,11350.0,2021-06-05
+Araucanía,Primera,58,11104.0,2021-06-05
+Araucanía,Primera,59,11030.0,2021-06-05
+Araucanía,Primera,60,10970.0,2021-06-05
+Araucanía,Primera,61,9963.0,2021-06-05
+Araucanía,Primera,62,9776.0,2021-06-05
+Araucanía,Primera,63,9778.0,2021-06-05
+Araucanía,Primera,64,9651.0,2021-06-05
+Araucanía,Primera,65,9213.0,2021-06-05
+Araucanía,Primera,66,8617.0,2021-06-05
+Araucanía,Primera,67,8438.0,2021-06-05
+Araucanía,Primera,68,7966.0,2021-06-05
+Araucanía,Primera,69,7413.0,2021-06-05
+Araucanía,Primera,70,6963.0,2021-06-05
+Araucanía,Primera,71,6647.0,2021-06-05
+Araucanía,Primera,72,6503.0,2021-06-05
+Araucanía,Primera,73,6200.0,2021-06-05
+Araucanía,Primera,74,5836.0,2021-06-05
+Araucanía,Primera,75,5540.0,2021-06-05
+Araucanía,Primera,76,5212.0,2021-06-05
+Araucanía,Primera,77,4594.0,2021-06-05
+Araucanía,Primera,78,4560.0,2021-06-05
+Araucanía,Primera,79,4004.0,2021-06-05
+Araucanía,Primera,80,30471.0,2021-06-05
+Araucanía,Segunda,15,0.0,2021-06-05
+Araucanía,Segunda,16,0.0,2021-06-05
+Araucanía,Segunda,17,0.0,2021-06-05
+Araucanía,Segunda,18,1548.0,2021-06-05
+Araucanía,Segunda,19,1848.0,2021-06-05
+Araucanía,Segunda,20,2260.0,2021-06-05
+Araucanía,Segunda,21,2436.0,2021-06-05
+Araucanía,Segunda,22,2975.0,2021-06-05
+Araucanía,Segunda,23,3570.0,2021-06-05
+Araucanía,Segunda,24,3966.0,2021-06-05
+Araucanía,Segunda,25,4254.0,2021-06-05
+Araucanía,Segunda,26,4682.0,2021-06-05
+Araucanía,Segunda,27,5030.0,2021-06-05
+Araucanía,Segunda,28,5075.0,2021-06-05
+Araucanía,Segunda,29,5268.0,2021-06-05
+Araucanía,Segunda,30,5508.0,2021-06-05
+Araucanía,Segunda,31,5468.0,2021-06-05
+Araucanía,Segunda,32,5254.0,2021-06-05
+Araucanía,Segunda,33,5146.0,2021-06-05
+Araucanía,Segunda,34,4963.0,2021-06-05
+Araucanía,Segunda,35,5078.0,2021-06-05
+Araucanía,Segunda,36,4866.0,2021-06-05
+Araucanía,Segunda,37,4900.0,2021-06-05
+Araucanía,Segunda,38,5243.0,2021-06-05
+Araucanía,Segunda,39,5171.0,2021-06-05
+Araucanía,Segunda,40,5811.0,2021-06-05
+Araucanía,Segunda,41,6472.0,2021-06-05
+Araucanía,Segunda,42,6347.0,2021-06-05
+Araucanía,Segunda,43,6612.0,2021-06-05
+Araucanía,Segunda,44,7009.0,2021-06-05
+Araucanía,Segunda,45,8009.0,2021-06-05
+Araucanía,Segunda,46,8905.0,2021-06-05
+Araucanía,Segunda,47,9336.0,2021-06-05
+Araucanía,Segunda,48,9758.0,2021-06-05
+Araucanía,Segunda,49,9618.0,2021-06-05
+Araucanía,Segunda,50,10120.0,2021-06-05
+Araucanía,Segunda,51,9805.0,2021-06-05
+Araucanía,Segunda,52,10060.0,2021-06-05
+Araucanía,Segunda,53,10098.0,2021-06-05
+Araucanía,Segunda,54,10422.0,2021-06-05
+Araucanía,Segunda,55,10555.0,2021-06-05
+Araucanía,Segunda,56,10341.0,2021-06-05
+Araucanía,Segunda,57,10376.0,2021-06-05
+Araucanía,Segunda,58,10150.0,2021-06-05
+Araucanía,Segunda,59,10127.0,2021-06-05
+Araucanía,Segunda,60,10231.0,2021-06-05
+Araucanía,Segunda,61,9321.0,2021-06-05
+Araucanía,Segunda,62,9138.0,2021-06-05
+Araucanía,Segunda,63,9237.0,2021-06-05
+Araucanía,Segunda,64,9121.0,2021-06-05
+Araucanía,Segunda,65,8763.0,2021-06-05
+Araucanía,Segunda,66,8267.0,2021-06-05
+Araucanía,Segunda,67,8060.0,2021-06-05
+Araucanía,Segunda,68,7625.0,2021-06-05
+Araucanía,Segunda,69,7099.0,2021-06-05
+Araucanía,Segunda,70,6710.0,2021-06-05
+Araucanía,Segunda,71,6389.0,2021-06-05
+Araucanía,Segunda,72,6287.0,2021-06-05
+Araucanía,Segunda,73,5983.0,2021-06-05
+Araucanía,Segunda,74,5627.0,2021-06-05
+Araucanía,Segunda,75,5339.0,2021-06-05
+Araucanía,Segunda,76,5038.0,2021-06-05
+Araucanía,Segunda,77,4447.0,2021-06-05
+Araucanía,Segunda,78,4406.0,2021-06-05
+Araucanía,Segunda,79,3863.0,2021-06-05
+Araucanía,Segunda,80,29381.0,2021-06-05
+O’Higgins,Primera,15,0.0,2021-06-05
+O’Higgins,Primera,16,0.0,2021-06-05
+O’Higgins,Primera,17,0.0,2021-06-05
+O’Higgins,Primera,18,2130.0,2021-06-05
+O’Higgins,Primera,19,2331.0,2021-06-05
+O’Higgins,Primera,20,2664.0,2021-06-05
+O’Higgins,Primera,21,2907.0,2021-06-05
+O’Higgins,Primera,22,3466.0,2021-06-05
+O’Higgins,Primera,23,7274.0,2021-06-05
+O’Higgins,Primera,24,8315.0,2021-06-05
+O’Higgins,Primera,25,8797.0,2021-06-05
+O’Higgins,Primera,26,10101.0,2021-06-05
+O’Higgins,Primera,27,10308.0,2021-06-05
+O’Higgins,Primera,28,10732.0,2021-06-05
+O’Higgins,Primera,29,11106.0,2021-06-05
+O’Higgins,Primera,30,11914.0,2021-06-05
+O’Higgins,Primera,31,12241.0,2021-06-05
+O’Higgins,Primera,32,12092.0,2021-06-05
+O’Higgins,Primera,33,11913.0,2021-06-05
+O’Higgins,Primera,34,11470.0,2021-06-05
+O’Higgins,Primera,35,11243.0,2021-06-05
+O’Higgins,Primera,36,10882.0,2021-06-05
+O’Higgins,Primera,37,10625.0,2021-06-05
+O’Higgins,Primera,38,11425.0,2021-06-05
+O’Higgins,Primera,39,11806.0,2021-06-05
+O’Higgins,Primera,40,11483.0,2021-06-05
+O’Higgins,Primera,41,11155.0,2021-06-05
+O’Higgins,Primera,42,10792.0,2021-06-05
+O’Higgins,Primera,43,10851.0,2021-06-05
+O’Higgins,Primera,44,11110.0,2021-06-05
+O’Higgins,Primera,45,11910.0,2021-06-05
+O’Higgins,Primera,46,11746.0,2021-06-05
+O’Higgins,Primera,47,11859.0,2021-06-05
+O’Higgins,Primera,48,12069.0,2021-06-05
+O’Higgins,Primera,49,11751.0,2021-06-05
+O’Higgins,Primera,50,11485.0,2021-06-05
+O’Higgins,Primera,51,10996.0,2021-06-05
+O’Higgins,Primera,52,11924.0,2021-06-05
+O’Higgins,Primera,53,12138.0,2021-06-05
+O’Higgins,Primera,54,12329.0,2021-06-05
+O’Higgins,Primera,55,12300.0,2021-06-05
+O’Higgins,Primera,56,12236.0,2021-06-05
+O’Higgins,Primera,57,12284.0,2021-06-05
+O’Higgins,Primera,58,12076.0,2021-06-05
+O’Higgins,Primera,59,11526.0,2021-06-05
+O’Higgins,Primera,60,11569.0,2021-06-05
+O’Higgins,Primera,61,10824.0,2021-06-05
+O’Higgins,Primera,62,10495.0,2021-06-05
+O’Higgins,Primera,63,10381.0,2021-06-05
+O’Higgins,Primera,64,9915.0,2021-06-05
+O’Higgins,Primera,65,9542.0,2021-06-05
+O’Higgins,Primera,66,8942.0,2021-06-05
+O’Higgins,Primera,67,8920.0,2021-06-05
+O’Higgins,Primera,68,8159.0,2021-06-05
+O’Higgins,Primera,69,7605.0,2021-06-05
+O’Higgins,Primera,70,7270.0,2021-06-05
+O’Higgins,Primera,71,6919.0,2021-06-05
+O’Higgins,Primera,72,6704.0,2021-06-05
+O’Higgins,Primera,73,6366.0,2021-06-05
+O’Higgins,Primera,74,5838.0,2021-06-05
+O’Higgins,Primera,75,5568.0,2021-06-05
+O’Higgins,Primera,76,5155.0,2021-06-05
+O’Higgins,Primera,77,4460.0,2021-06-05
+O’Higgins,Primera,78,4234.0,2021-06-05
+O’Higgins,Primera,79,3885.0,2021-06-05
+O’Higgins,Primera,80,26371.0,2021-06-05
+O’Higgins,Segunda,15,0.0,2021-06-05
+O’Higgins,Segunda,16,0.0,2021-06-05
+O’Higgins,Segunda,17,0.0,2021-06-05
+O’Higgins,Segunda,18,1539.0,2021-06-05
+O’Higgins,Segunda,19,1770.0,2021-06-05
+O’Higgins,Segunda,20,2016.0,2021-06-05
+O’Higgins,Segunda,21,2279.0,2021-06-05
+O’Higgins,Segunda,22,2703.0,2021-06-05
+O’Higgins,Segunda,23,3112.0,2021-06-05
+O’Higgins,Segunda,24,3361.0,2021-06-05
+O’Higgins,Segunda,25,3609.0,2021-06-05
+O’Higgins,Segunda,26,4005.0,2021-06-05
+O’Higgins,Segunda,27,4185.0,2021-06-05
+O’Higgins,Segunda,28,4344.0,2021-06-05
+O’Higgins,Segunda,29,4534.0,2021-06-05
+O’Higgins,Segunda,30,4956.0,2021-06-05
+O’Higgins,Segunda,31,5133.0,2021-06-05
+O’Higgins,Segunda,32,5062.0,2021-06-05
+O’Higgins,Segunda,33,4985.0,2021-06-05
+O’Higgins,Segunda,34,4896.0,2021-06-05
+O’Higgins,Segunda,35,4668.0,2021-06-05
+O’Higgins,Segunda,36,4485.0,2021-06-05
+O’Higgins,Segunda,37,4456.0,2021-06-05
+O’Higgins,Segunda,38,4900.0,2021-06-05
+O’Higgins,Segunda,39,5086.0,2021-06-05
+O’Higgins,Segunda,40,7095.0,2021-06-05
+O’Higgins,Segunda,41,7680.0,2021-06-05
+O’Higgins,Segunda,42,7800.0,2021-06-05
+O’Higgins,Segunda,43,7871.0,2021-06-05
+O’Higgins,Segunda,44,8250.0,2021-06-05
+O’Higgins,Segunda,45,8882.0,2021-06-05
+O’Higgins,Segunda,46,9232.0,2021-06-05
+O’Higgins,Segunda,47,9843.0,2021-06-05
+O’Higgins,Segunda,48,10443.0,2021-06-05
+O’Higgins,Segunda,49,10241.0,2021-06-05
+O’Higgins,Segunda,50,10222.0,2021-06-05
+O’Higgins,Segunda,51,9826.0,2021-06-05
+O’Higgins,Segunda,52,10747.0,2021-06-05
+O’Higgins,Segunda,53,10982.0,2021-06-05
+O’Higgins,Segunda,54,11260.0,2021-06-05
+O’Higgins,Segunda,55,11263.0,2021-06-05
+O’Higgins,Segunda,56,11276.0,2021-06-05
+O’Higgins,Segunda,57,11451.0,2021-06-05
+O’Higgins,Segunda,58,11203.0,2021-06-05
+O’Higgins,Segunda,59,10717.0,2021-06-05
+O’Higgins,Segunda,60,10902.0,2021-06-05
+O’Higgins,Segunda,61,10206.0,2021-06-05
+O’Higgins,Segunda,62,9970.0,2021-06-05
+O’Higgins,Segunda,63,9884.0,2021-06-05
+O’Higgins,Segunda,64,9493.0,2021-06-05
+O’Higgins,Segunda,65,9165.0,2021-06-05
+O’Higgins,Segunda,66,8612.0,2021-06-05
+O’Higgins,Segunda,67,8650.0,2021-06-05
+O’Higgins,Segunda,68,7927.0,2021-06-05
+O’Higgins,Segunda,69,7411.0,2021-06-05
+O’Higgins,Segunda,70,7041.0,2021-06-05
+O’Higgins,Segunda,71,6734.0,2021-06-05
+O’Higgins,Segunda,72,6524.0,2021-06-05
+O’Higgins,Segunda,73,6179.0,2021-06-05
+O’Higgins,Segunda,74,5667.0,2021-06-05
+O’Higgins,Segunda,75,5436.0,2021-06-05
+O’Higgins,Segunda,76,5042.0,2021-06-05
+O’Higgins,Segunda,77,4355.0,2021-06-05
+O’Higgins,Segunda,78,4132.0,2021-06-05
+O’Higgins,Segunda,79,3804.0,2021-06-05
+O’Higgins,Segunda,80,25661.0,2021-06-05
+Los Lagos,Primera,15,0.0,2021-06-05
+Los Lagos,Primera,16,0.0,2021-06-05
+Los Lagos,Primera,17,0.0,2021-06-05
+Los Lagos,Primera,18,1919.0,2021-06-05
+Los Lagos,Primera,19,2165.0,2021-06-05
+Los Lagos,Primera,20,2471.0,2021-06-05
+Los Lagos,Primera,21,2711.0,2021-06-05
+Los Lagos,Primera,22,3299.0,2021-06-05
+Los Lagos,Primera,23,6602.0,2021-06-05
+Los Lagos,Primera,24,7221.0,2021-06-05
+Los Lagos,Primera,25,7512.0,2021-06-05
+Los Lagos,Primera,26,8586.0,2021-06-05
+Los Lagos,Primera,27,8793.0,2021-06-05
+Los Lagos,Primera,28,9281.0,2021-06-05
+Los Lagos,Primera,29,9712.0,2021-06-05
+Los Lagos,Primera,30,10305.0,2021-06-05
+Los Lagos,Primera,31,10344.0,2021-06-05
+Los Lagos,Primera,32,10102.0,2021-06-05
+Los Lagos,Primera,33,9818.0,2021-06-05
+Los Lagos,Primera,34,9559.0,2021-06-05
+Los Lagos,Primera,35,9290.0,2021-06-05
+Los Lagos,Primera,36,9337.0,2021-06-05
+Los Lagos,Primera,37,9381.0,2021-06-05
+Los Lagos,Primera,38,9758.0,2021-06-05
+Los Lagos,Primera,39,9751.0,2021-06-05
+Los Lagos,Primera,40,9639.0,2021-06-05
+Los Lagos,Primera,41,9616.0,2021-06-05
+Los Lagos,Primera,42,9313.0,2021-06-05
+Los Lagos,Primera,43,9228.0,2021-06-05
+Los Lagos,Primera,44,9411.0,2021-06-05
+Los Lagos,Primera,45,9845.0,2021-06-05
+Los Lagos,Primera,46,10108.0,2021-06-05
+Los Lagos,Primera,47,10452.0,2021-06-05
+Los Lagos,Primera,48,10431.0,2021-06-05
+Los Lagos,Primera,49,9924.0,2021-06-05
+Los Lagos,Primera,50,9942.0,2021-06-05
+Los Lagos,Primera,51,9966.0,2021-06-05
+Los Lagos,Primera,52,10275.0,2021-06-05
+Los Lagos,Primera,53,10454.0,2021-06-05
+Los Lagos,Primera,54,10358.0,2021-06-05
+Los Lagos,Primera,55,10367.0,2021-06-05
+Los Lagos,Primera,56,10198.0,2021-06-05
+Los Lagos,Primera,57,9926.0,2021-06-05
+Los Lagos,Primera,58,9749.0,2021-06-05
+Los Lagos,Primera,59,9291.0,2021-06-05
+Los Lagos,Primera,60,9255.0,2021-06-05
+Los Lagos,Primera,61,8590.0,2021-06-05
+Los Lagos,Primera,62,8317.0,2021-06-05
+Los Lagos,Primera,63,8032.0,2021-06-05
+Los Lagos,Primera,64,7743.0,2021-06-05
+Los Lagos,Primera,65,7419.0,2021-06-05
+Los Lagos,Primera,66,6907.0,2021-06-05
+Los Lagos,Primera,67,6685.0,2021-06-05
+Los Lagos,Primera,68,6141.0,2021-06-05
+Los Lagos,Primera,69,5756.0,2021-06-05
+Los Lagos,Primera,70,5551.0,2021-06-05
+Los Lagos,Primera,71,5172.0,2021-06-05
+Los Lagos,Primera,72,5129.0,2021-06-05
+Los Lagos,Primera,73,4842.0,2021-06-05
+Los Lagos,Primera,74,4540.0,2021-06-05
+Los Lagos,Primera,75,4124.0,2021-06-05
+Los Lagos,Primera,76,3918.0,2021-06-05
+Los Lagos,Primera,77,3534.0,2021-06-05
+Los Lagos,Primera,78,3594.0,2021-06-05
+Los Lagos,Primera,79,3246.0,2021-06-05
+Los Lagos,Primera,80,22847.0,2021-06-05
+Los Lagos,Segunda,15,0.0,2021-06-05
+Los Lagos,Segunda,16,0.0,2021-06-05
+Los Lagos,Segunda,17,0.0,2021-06-05
+Los Lagos,Segunda,18,1625.0,2021-06-05
+Los Lagos,Segunda,19,1805.0,2021-06-05
+Los Lagos,Segunda,20,2104.0,2021-06-05
+Los Lagos,Segunda,21,2294.0,2021-06-05
+Los Lagos,Segunda,22,2699.0,2021-06-05
+Los Lagos,Segunda,23,3153.0,2021-06-05
+Los Lagos,Segunda,24,3513.0,2021-06-05
+Los Lagos,Segunda,25,3789.0,2021-06-05
+Los Lagos,Segunda,26,4129.0,2021-06-05
+Los Lagos,Segunda,27,4361.0,2021-06-05
+Los Lagos,Segunda,28,4638.0,2021-06-05
+Los Lagos,Segunda,29,4911.0,2021-06-05
+Los Lagos,Segunda,30,5296.0,2021-06-05
+Los Lagos,Segunda,31,5196.0,2021-06-05
+Los Lagos,Segunda,32,5207.0,2021-06-05
+Los Lagos,Segunda,33,4991.0,2021-06-05
+Los Lagos,Segunda,34,4890.0,2021-06-05
+Los Lagos,Segunda,35,4736.0,2021-06-05
+Los Lagos,Segunda,36,4843.0,2021-06-05
+Los Lagos,Segunda,37,4871.0,2021-06-05
+Los Lagos,Segunda,38,5080.0,2021-06-05
+Los Lagos,Segunda,39,5063.0,2021-06-05
+Los Lagos,Segunda,40,5747.0,2021-06-05
+Los Lagos,Segunda,41,6264.0,2021-06-05
+Los Lagos,Segunda,42,6253.0,2021-06-05
+Los Lagos,Segunda,43,6334.0,2021-06-05
+Los Lagos,Segunda,44,6615.0,2021-06-05
+Los Lagos,Segunda,45,7125.0,2021-06-05
+Los Lagos,Segunda,46,7592.0,2021-06-05
+Los Lagos,Segunda,47,8121.0,2021-06-05
+Los Lagos,Segunda,48,8366.0,2021-06-05
+Los Lagos,Segunda,49,8104.0,2021-06-05
+Los Lagos,Segunda,50,8360.0,2021-06-05
+Los Lagos,Segunda,51,8368.0,2021-06-05
+Los Lagos,Segunda,52,8829.0,2021-06-05
+Los Lagos,Segunda,53,9028.0,2021-06-05
+Los Lagos,Segunda,54,9008.0,2021-06-05
+Los Lagos,Segunda,55,9119.0,2021-06-05
+Los Lagos,Segunda,56,9006.0,2021-06-05
+Los Lagos,Segunda,57,8886.0,2021-06-05
+Los Lagos,Segunda,58,8761.0,2021-06-05
+Los Lagos,Segunda,59,8459.0,2021-06-05
+Los Lagos,Segunda,60,8567.0,2021-06-05
+Los Lagos,Segunda,61,8024.0,2021-06-05
+Los Lagos,Segunda,62,7795.0,2021-06-05
+Los Lagos,Segunda,63,7604.0,2021-06-05
+Los Lagos,Segunda,64,7316.0,2021-06-05
+Los Lagos,Segunda,65,7037.0,2021-06-05
+Los Lagos,Segunda,66,6599.0,2021-06-05
+Los Lagos,Segunda,67,6437.0,2021-06-05
+Los Lagos,Segunda,68,5885.0,2021-06-05
+Los Lagos,Segunda,69,5517.0,2021-06-05
+Los Lagos,Segunda,70,5359.0,2021-06-05
+Los Lagos,Segunda,71,5010.0,2021-06-05
+Los Lagos,Segunda,72,4970.0,2021-06-05
+Los Lagos,Segunda,73,4678.0,2021-06-05
+Los Lagos,Segunda,74,4413.0,2021-06-05
+Los Lagos,Segunda,75,3992.0,2021-06-05
+Los Lagos,Segunda,76,3791.0,2021-06-05
+Los Lagos,Segunda,77,3422.0,2021-06-05
+Los Lagos,Segunda,78,3474.0,2021-06-05
+Los Lagos,Segunda,79,3149.0,2021-06-05
+Los Lagos,Segunda,80,22104.0,2021-06-05
+Los Ríos,Primera,15,0.0,2021-06-05
+Los Ríos,Primera,16,0.0,2021-06-05
+Los Ríos,Primera,17,0.0,2021-06-05
+Los Ríos,Primera,18,1405.0,2021-06-05
+Los Ríos,Primera,19,1540.0,2021-06-05
+Los Ríos,Primera,20,1676.0,2021-06-05
+Los Ríos,Primera,21,1801.0,2021-06-05
+Los Ríos,Primera,22,1985.0,2021-06-05
+Los Ríos,Primera,23,3023.0,2021-06-05
+Los Ríos,Primera,24,3459.0,2021-06-05
+Los Ríos,Primera,25,3583.0,2021-06-05
+Los Ríos,Primera,26,4003.0,2021-06-05
+Los Ríos,Primera,27,3983.0,2021-06-05
+Los Ríos,Primera,28,4251.0,2021-06-05
+Los Ríos,Primera,29,4273.0,2021-06-05
+Los Ríos,Primera,30,4359.0,2021-06-05
+Los Ríos,Primera,31,4567.0,2021-06-05
+Los Ríos,Primera,32,4334.0,2021-06-05
+Los Ríos,Primera,33,4123.0,2021-06-05
+Los Ríos,Primera,34,4102.0,2021-06-05
+Los Ríos,Primera,35,4074.0,2021-06-05
+Los Ríos,Primera,36,3968.0,2021-06-05
+Los Ríos,Primera,37,3976.0,2021-06-05
+Los Ríos,Primera,38,4186.0,2021-06-05
+Los Ríos,Primera,39,4203.0,2021-06-05
+Los Ríos,Primera,40,3999.0,2021-06-05
+Los Ríos,Primera,41,4066.0,2021-06-05
+Los Ríos,Primera,42,3822.0,2021-06-05
+Los Ríos,Primera,43,3869.0,2021-06-05
+Los Ríos,Primera,44,3812.0,2021-06-05
+Los Ríos,Primera,45,4156.0,2021-06-05
+Los Ríos,Primera,46,4221.0,2021-06-05
+Los Ríos,Primera,47,4312.0,2021-06-05
+Los Ríos,Primera,48,4349.0,2021-06-05
+Los Ríos,Primera,49,4172.0,2021-06-05
+Los Ríos,Primera,50,4271.0,2021-06-05
+Los Ríos,Primera,51,4263.0,2021-06-05
+Los Ríos,Primera,52,4510.0,2021-06-05
+Los Ríos,Primera,53,4756.0,2021-06-05
+Los Ríos,Primera,54,4873.0,2021-06-05
+Los Ríos,Primera,55,4823.0,2021-06-05
+Los Ríos,Primera,56,4847.0,2021-06-05
+Los Ríos,Primera,57,4778.0,2021-06-05
+Los Ríos,Primera,58,4761.0,2021-06-05
+Los Ríos,Primera,59,4685.0,2021-06-05
+Los Ríos,Primera,60,4555.0,2021-06-05
+Los Ríos,Primera,61,4175.0,2021-06-05
+Los Ríos,Primera,62,4190.0,2021-06-05
+Los Ríos,Primera,63,4118.0,2021-06-05
+Los Ríos,Primera,64,3899.0,2021-06-05
+Los Ríos,Primera,65,3769.0,2021-06-05
+Los Ríos,Primera,66,3773.0,2021-06-05
+Los Ríos,Primera,67,3628.0,2021-06-05
+Los Ríos,Primera,68,3360.0,2021-06-05
+Los Ríos,Primera,69,3160.0,2021-06-05
+Los Ríos,Primera,70,2845.0,2021-06-05
+Los Ríos,Primera,71,2759.0,2021-06-05
+Los Ríos,Primera,72,2637.0,2021-06-05
+Los Ríos,Primera,73,2630.0,2021-06-05
+Los Ríos,Primera,74,2445.0,2021-06-05
+Los Ríos,Primera,75,2149.0,2021-06-05
+Los Ríos,Primera,76,2107.0,2021-06-05
+Los Ríos,Primera,77,1904.0,2021-06-05
+Los Ríos,Primera,78,1889.0,2021-06-05
+Los Ríos,Primera,79,1603.0,2021-06-05
+Los Ríos,Primera,80,11943.0,2021-06-05
+Los Ríos,Segunda,15,0.0,2021-06-05
+Los Ríos,Segunda,16,0.0,2021-06-05
+Los Ríos,Segunda,17,0.0,2021-06-05
+Los Ríos,Segunda,18,957.0,2021-06-05
+Los Ríos,Segunda,19,1107.0,2021-06-05
+Los Ríos,Segunda,20,1177.0,2021-06-05
+Los Ríos,Segunda,21,1321.0,2021-06-05
+Los Ríos,Segunda,22,1467.0,2021-06-05
+Los Ríos,Segunda,23,1715.0,2021-06-05
+Los Ríos,Segunda,24,1880.0,2021-06-05
+Los Ríos,Segunda,25,1986.0,2021-06-05
+Los Ríos,Segunda,26,2107.0,2021-06-05
+Los Ríos,Segunda,27,2169.0,2021-06-05
+Los Ríos,Segunda,28,2262.0,2021-06-05
+Los Ríos,Segunda,29,2396.0,2021-06-05
+Los Ríos,Segunda,30,2451.0,2021-06-05
+Los Ríos,Segunda,31,2543.0,2021-06-05
+Los Ríos,Segunda,32,2490.0,2021-06-05
+Los Ríos,Segunda,33,2379.0,2021-06-05
+Los Ríos,Segunda,34,2334.0,2021-06-05
+Los Ríos,Segunda,35,2301.0,2021-06-05
+Los Ríos,Segunda,36,2277.0,2021-06-05
+Los Ríos,Segunda,37,2223.0,2021-06-05
+Los Ríos,Segunda,38,2410.0,2021-06-05
+Los Ríos,Segunda,39,2383.0,2021-06-05
+Los Ríos,Segunda,40,2617.0,2021-06-05
+Los Ríos,Segunda,41,2748.0,2021-06-05
+Los Ríos,Segunda,42,2762.0,2021-06-05
+Los Ríos,Segunda,43,2830.0,2021-06-05
+Los Ríos,Segunda,44,2858.0,2021-06-05
+Los Ríos,Segunda,45,3158.0,2021-06-05
+Los Ríos,Segunda,46,3265.0,2021-06-05
+Los Ríos,Segunda,47,3414.0,2021-06-05
+Los Ríos,Segunda,48,3609.0,2021-06-05
+Los Ríos,Segunda,49,3496.0,2021-06-05
+Los Ríos,Segunda,50,3633.0,2021-06-05
+Los Ríos,Segunda,51,3678.0,2021-06-05
+Los Ríos,Segunda,52,3951.0,2021-06-05
+Los Ríos,Segunda,53,4160.0,2021-06-05
+Los Ríos,Segunda,54,4234.0,2021-06-05
+Los Ríos,Segunda,55,4274.0,2021-06-05
+Los Ríos,Segunda,56,4333.0,2021-06-05
+Los Ríos,Segunda,57,4296.0,2021-06-05
+Los Ríos,Segunda,58,4312.0,2021-06-05
+Los Ríos,Segunda,59,4269.0,2021-06-05
+Los Ríos,Segunda,60,4173.0,2021-06-05
+Los Ríos,Segunda,61,3858.0,2021-06-05
+Los Ríos,Segunda,62,3873.0,2021-06-05
+Los Ríos,Segunda,63,3859.0,2021-06-05
+Los Ríos,Segunda,64,3666.0,2021-06-05
+Los Ríos,Segunda,65,3568.0,2021-06-05
+Los Ríos,Segunda,66,3613.0,2021-06-05
+Los Ríos,Segunda,67,3459.0,2021-06-05
+Los Ríos,Segunda,68,3198.0,2021-06-05
+Los Ríos,Segunda,69,3046.0,2021-06-05
+Los Ríos,Segunda,70,2713.0,2021-06-05
+Los Ríos,Segunda,71,2644.0,2021-06-05
+Los Ríos,Segunda,72,2534.0,2021-06-05
+Los Ríos,Segunda,73,2522.0,2021-06-05
+Los Ríos,Segunda,74,2350.0,2021-06-05
+Los Ríos,Segunda,75,2060.0,2021-06-05
+Los Ríos,Segunda,76,2011.0,2021-06-05
+Los Ríos,Segunda,77,1855.0,2021-06-05
+Los Ríos,Segunda,78,1816.0,2021-06-05
+Los Ríos,Segunda,79,1543.0,2021-06-05
+Los Ríos,Segunda,80,11474.0,2021-06-05
+Magallanes,Primera,15,0.0,2021-06-05
+Magallanes,Primera,16,0.0,2021-06-05
+Magallanes,Primera,17,0.0,2021-06-05
+Magallanes,Primera,18,974.0,2021-06-05
+Magallanes,Primera,19,1237.0,2021-06-05
+Magallanes,Primera,20,1078.0,2021-06-05
+Magallanes,Primera,21,1002.0,2021-06-05
+Magallanes,Primera,22,1297.0,2021-06-05
+Magallanes,Primera,23,1583.0,2021-06-05
+Magallanes,Primera,24,1809.0,2021-06-05
+Magallanes,Primera,25,1851.0,2021-06-05
+Magallanes,Primera,26,2161.0,2021-06-05
+Magallanes,Primera,27,2236.0,2021-06-05
+Magallanes,Primera,28,2241.0,2021-06-05
+Magallanes,Primera,29,2427.0,2021-06-05
+Magallanes,Primera,30,2547.0,2021-06-05
+Magallanes,Primera,31,2491.0,2021-06-05
+Magallanes,Primera,32,2592.0,2021-06-05
+Magallanes,Primera,33,2550.0,2021-06-05
+Magallanes,Primera,34,2353.0,2021-06-05
+Magallanes,Primera,35,2364.0,2021-06-05
+Magallanes,Primera,36,2444.0,2021-06-05
+Magallanes,Primera,37,2362.0,2021-06-05
+Magallanes,Primera,38,2457.0,2021-06-05
+Magallanes,Primera,39,2470.0,2021-06-05
+Magallanes,Primera,40,2305.0,2021-06-05
+Magallanes,Primera,41,2314.0,2021-06-05
+Magallanes,Primera,42,2312.0,2021-06-05
+Magallanes,Primera,43,2281.0,2021-06-05
+Magallanes,Primera,44,2181.0,2021-06-05
+Magallanes,Primera,45,2331.0,2021-06-05
+Magallanes,Primera,46,2227.0,2021-06-05
+Magallanes,Primera,47,2230.0,2021-06-05
+Magallanes,Primera,48,2101.0,2021-06-05
+Magallanes,Primera,49,1970.0,2021-06-05
+Magallanes,Primera,50,2065.0,2021-06-05
+Magallanes,Primera,51,1857.0,2021-06-05
+Magallanes,Primera,52,1937.0,2021-06-05
+Magallanes,Primera,53,2107.0,2021-06-05
+Magallanes,Primera,54,2035.0,2021-06-05
+Magallanes,Primera,55,2009.0,2021-06-05
+Magallanes,Primera,56,2105.0,2021-06-05
+Magallanes,Primera,57,2121.0,2021-06-05
+Magallanes,Primera,58,2089.0,2021-06-05
+Magallanes,Primera,59,2050.0,2021-06-05
+Magallanes,Primera,60,2014.0,2021-06-05
+Magallanes,Primera,61,1937.0,2021-06-05
+Magallanes,Primera,62,1909.0,2021-06-05
+Magallanes,Primera,63,1943.0,2021-06-05
+Magallanes,Primera,64,1739.0,2021-06-05
+Magallanes,Primera,65,1720.0,2021-06-05
+Magallanes,Primera,66,1512.0,2021-06-05
+Magallanes,Primera,67,1438.0,2021-06-05
+Magallanes,Primera,68,1302.0,2021-06-05
+Magallanes,Primera,69,1206.0,2021-06-05
+Magallanes,Primera,70,1141.0,2021-06-05
+Magallanes,Primera,71,1058.0,2021-06-05
+Magallanes,Primera,72,1004.0,2021-06-05
+Magallanes,Primera,73,988.0,2021-06-05
+Magallanes,Primera,74,912.0,2021-06-05
+Magallanes,Primera,75,810.0,2021-06-05
+Magallanes,Primera,76,767.0,2021-06-05
+Magallanes,Primera,77,743.0,2021-06-05
+Magallanes,Primera,78,666.0,2021-06-05
+Magallanes,Primera,79,654.0,2021-06-05
+Magallanes,Primera,80,4459.0,2021-06-05
+Magallanes,Segunda,15,0.0,2021-06-05
+Magallanes,Segunda,16,0.0,2021-06-05
+Magallanes,Segunda,17,0.0,2021-06-05
+Magallanes,Segunda,18,720.0,2021-06-05
+Magallanes,Segunda,19,1049.0,2021-06-05
+Magallanes,Segunda,20,902.0,2021-06-05
+Magallanes,Segunda,21,850.0,2021-06-05
+Magallanes,Segunda,22,1117.0,2021-06-05
+Magallanes,Segunda,23,1055.0,2021-06-05
+Magallanes,Segunda,24,1242.0,2021-06-05
+Magallanes,Segunda,25,1246.0,2021-06-05
+Magallanes,Segunda,26,1338.0,2021-06-05
+Magallanes,Segunda,27,1457.0,2021-06-05
+Magallanes,Segunda,28,1472.0,2021-06-05
+Magallanes,Segunda,29,1589.0,2021-06-05
+Magallanes,Segunda,30,1693.0,2021-06-05
+Magallanes,Segunda,31,1618.0,2021-06-05
+Magallanes,Segunda,32,1651.0,2021-06-05
+Magallanes,Segunda,33,1693.0,2021-06-05
+Magallanes,Segunda,34,1606.0,2021-06-05
+Magallanes,Segunda,35,1560.0,2021-06-05
+Magallanes,Segunda,36,1665.0,2021-06-05
+Magallanes,Segunda,37,1600.0,2021-06-05
+Magallanes,Segunda,38,1665.0,2021-06-05
+Magallanes,Segunda,39,1692.0,2021-06-05
+Magallanes,Segunda,40,1770.0,2021-06-05
+Magallanes,Segunda,41,1873.0,2021-06-05
+Magallanes,Segunda,42,1861.0,2021-06-05
+Magallanes,Segunda,43,1927.0,2021-06-05
+Magallanes,Segunda,44,1834.0,2021-06-05
+Magallanes,Segunda,45,2023.0,2021-06-05
+Magallanes,Segunda,46,1960.0,2021-06-05
+Magallanes,Segunda,47,1938.0,2021-06-05
+Magallanes,Segunda,48,1900.0,2021-06-05
+Magallanes,Segunda,49,1743.0,2021-06-05
+Magallanes,Segunda,50,1882.0,2021-06-05
+Magallanes,Segunda,51,1702.0,2021-06-05
+Magallanes,Segunda,52,1769.0,2021-06-05
+Magallanes,Segunda,53,1897.0,2021-06-05
+Magallanes,Segunda,54,1871.0,2021-06-05
+Magallanes,Segunda,55,1863.0,2021-06-05
+Magallanes,Segunda,56,1953.0,2021-06-05
+Magallanes,Segunda,57,1960.0,2021-06-05
+Magallanes,Segunda,58,1954.0,2021-06-05
+Magallanes,Segunda,59,1927.0,2021-06-05
+Magallanes,Segunda,60,1884.0,2021-06-05
+Magallanes,Segunda,61,1835.0,2021-06-05
+Magallanes,Segunda,62,1815.0,2021-06-05
+Magallanes,Segunda,63,1864.0,2021-06-05
+Magallanes,Segunda,64,1670.0,2021-06-05
+Magallanes,Segunda,65,1661.0,2021-06-05
+Magallanes,Segunda,66,1467.0,2021-06-05
+Magallanes,Segunda,67,1395.0,2021-06-05
+Magallanes,Segunda,68,1276.0,2021-06-05
+Magallanes,Segunda,69,1178.0,2021-06-05
+Magallanes,Segunda,70,1111.0,2021-06-05
+Magallanes,Segunda,71,1037.0,2021-06-05
+Magallanes,Segunda,72,977.0,2021-06-05
+Magallanes,Segunda,73,965.0,2021-06-05
+Magallanes,Segunda,74,892.0,2021-06-05
+Magallanes,Segunda,75,793.0,2021-06-05
+Magallanes,Segunda,76,756.0,2021-06-05
+Magallanes,Segunda,77,728.0,2021-06-05
+Magallanes,Segunda,78,652.0,2021-06-05
+Magallanes,Segunda,79,632.0,2021-06-05
+Magallanes,Segunda,80,4346.0,2021-06-05
+Maule,Primera,15,0.0,2021-06-05
+Maule,Primera,16,0.0,2021-06-05
+Maule,Primera,17,0.0,2021-06-05
+Maule,Primera,18,2644.0,2021-06-05
+Maule,Primera,19,2997.0,2021-06-05
+Maule,Primera,20,3220.0,2021-06-05
+Maule,Primera,21,3577.0,2021-06-05
+Maule,Primera,22,4234.0,2021-06-05
+Maule,Primera,23,7574.0,2021-06-05
+Maule,Primera,24,8237.0,2021-06-05
+Maule,Primera,25,9650.0,2021-06-05
+Maule,Primera,26,11378.0,2021-06-05
+Maule,Primera,27,11575.0,2021-06-05
+Maule,Primera,28,11868.0,2021-06-05
+Maule,Primera,29,12416.0,2021-06-05
+Maule,Primera,30,13066.0,2021-06-05
+Maule,Primera,31,13530.0,2021-06-05
+Maule,Primera,32,13164.0,2021-06-05
+Maule,Primera,33,12724.0,2021-06-05
+Maule,Primera,34,12225.0,2021-06-05
+Maule,Primera,35,12028.0,2021-06-05
+Maule,Primera,36,11498.0,2021-06-05
+Maule,Primera,37,11602.0,2021-06-05
+Maule,Primera,38,12411.0,2021-06-05
+Maule,Primera,39,12932.0,2021-06-05
+Maule,Primera,40,12151.0,2021-06-05
+Maule,Primera,41,12052.0,2021-06-05
+Maule,Primera,42,11650.0,2021-06-05
+Maule,Primera,43,11802.0,2021-06-05
+Maule,Primera,44,12417.0,2021-06-05
+Maule,Primera,45,13105.0,2021-06-05
+Maule,Primera,46,13111.0,2021-06-05
+Maule,Primera,47,13221.0,2021-06-05
+Maule,Primera,48,13265.0,2021-06-05
+Maule,Primera,49,12994.0,2021-06-05
+Maule,Primera,50,12698.0,2021-06-05
+Maule,Primera,51,12591.0,2021-06-05
+Maule,Primera,52,13469.0,2021-06-05
+Maule,Primera,53,13930.0,2021-06-05
+Maule,Primera,54,14094.0,2021-06-05
+Maule,Primera,55,14163.0,2021-06-05
+Maule,Primera,56,13768.0,2021-06-05
+Maule,Primera,57,13745.0,2021-06-05
+Maule,Primera,58,13732.0,2021-06-05
+Maule,Primera,59,13027.0,2021-06-05
+Maule,Primera,60,13265.0,2021-06-05
+Maule,Primera,61,12250.0,2021-06-05
+Maule,Primera,62,11870.0,2021-06-05
+Maule,Primera,63,11744.0,2021-06-05
+Maule,Primera,64,11265.0,2021-06-05
+Maule,Primera,65,11084.0,2021-06-05
+Maule,Primera,66,9972.0,2021-06-05
+Maule,Primera,67,10493.0,2021-06-05
+Maule,Primera,68,9499.0,2021-06-05
+Maule,Primera,69,8813.0,2021-06-05
+Maule,Primera,70,8409.0,2021-06-05
+Maule,Primera,71,7905.0,2021-06-05
+Maule,Primera,72,7655.0,2021-06-05
+Maule,Primera,73,6940.0,2021-06-05
+Maule,Primera,74,6738.0,2021-06-05
+Maule,Primera,75,6221.0,2021-06-05
+Maule,Primera,76,6011.0,2021-06-05
+Maule,Primera,77,5230.0,2021-06-05
+Maule,Primera,78,4877.0,2021-06-05
+Maule,Primera,79,4418.0,2021-06-05
+Maule,Primera,80,30634.0,2021-06-05
+Maule,Segunda,15,0.0,2021-06-05
+Maule,Segunda,16,0.0,2021-06-05
+Maule,Segunda,17,0.0,2021-06-05
+Maule,Segunda,18,1619.0,2021-06-05
+Maule,Segunda,19,2027.0,2021-06-05
+Maule,Segunda,20,2121.0,2021-06-05
+Maule,Segunda,21,2419.0,2021-06-05
+Maule,Segunda,22,2926.0,2021-06-05
+Maule,Segunda,23,3358.0,2021-06-05
+Maule,Segunda,24,3870.0,2021-06-05
+Maule,Segunda,25,4216.0,2021-06-05
+Maule,Segunda,26,4668.0,2021-06-05
+Maule,Segunda,27,4853.0,2021-06-05
+Maule,Segunda,28,5059.0,2021-06-05
+Maule,Segunda,29,5465.0,2021-06-05
+Maule,Segunda,30,5624.0,2021-06-05
+Maule,Segunda,31,5935.0,2021-06-05
+Maule,Segunda,32,5759.0,2021-06-05
+Maule,Segunda,33,5516.0,2021-06-05
+Maule,Segunda,34,5319.0,2021-06-05
+Maule,Segunda,35,5131.0,2021-06-05
+Maule,Segunda,36,5036.0,2021-06-05
+Maule,Segunda,37,5063.0,2021-06-05
+Maule,Segunda,38,5382.0,2021-06-05
+Maule,Segunda,39,5676.0,2021-06-05
+Maule,Segunda,40,7129.0,2021-06-05
+Maule,Segunda,41,7612.0,2021-06-05
+Maule,Segunda,42,7560.0,2021-06-05
+Maule,Segunda,43,7776.0,2021-06-05
+Maule,Segunda,44,8559.0,2021-06-05
+Maule,Segunda,45,9417.0,2021-06-05
+Maule,Segunda,46,9973.0,2021-06-05
+Maule,Segunda,47,10712.0,2021-06-05
+Maule,Segunda,48,11190.0,2021-06-05
+Maule,Segunda,49,11187.0,2021-06-05
+Maule,Segunda,50,11026.0,2021-06-05
+Maule,Segunda,51,10979.0,2021-06-05
+Maule,Segunda,52,11910.0,2021-06-05
+Maule,Segunda,53,12384.0,2021-06-05
+Maule,Segunda,54,12669.0,2021-06-05
+Maule,Segunda,55,12809.0,2021-06-05
+Maule,Segunda,56,12502.0,2021-06-05
+Maule,Segunda,57,12535.0,2021-06-05
+Maule,Segunda,58,12559.0,2021-06-05
+Maule,Segunda,59,12024.0,2021-06-05
+Maule,Segunda,60,12346.0,2021-06-05
+Maule,Segunda,61,11410.0,2021-06-05
+Maule,Segunda,62,11172.0,2021-06-05
+Maule,Segunda,63,11117.0,2021-06-05
+Maule,Segunda,64,10647.0,2021-06-05
+Maule,Segunda,65,10592.0,2021-06-05
+Maule,Segunda,66,9534.0,2021-06-05
+Maule,Segunda,67,10121.0,2021-06-05
+Maule,Segunda,68,9138.0,2021-06-05
+Maule,Segunda,69,8500.0,2021-06-05
+Maule,Segunda,70,8117.0,2021-06-05
+Maule,Segunda,71,7647.0,2021-06-05
+Maule,Segunda,72,7414.0,2021-06-05
+Maule,Segunda,73,6726.0,2021-06-05
+Maule,Segunda,74,6513.0,2021-06-05
+Maule,Segunda,75,6029.0,2021-06-05
+Maule,Segunda,76,5820.0,2021-06-05
+Maule,Segunda,77,5080.0,2021-06-05
+Maule,Segunda,78,4724.0,2021-06-05
+Maule,Segunda,79,4291.0,2021-06-05
+Maule,Segunda,80,29725.0,2021-06-05
+Metropolitana,Primera,15,0.0,2021-06-05
+Metropolitana,Primera,16,0.0,2021-06-05
+Metropolitana,Primera,17,0.0,2021-06-05
+Metropolitana,Primera,18,14816.0,2021-06-05
+Metropolitana,Primera,19,18014.0,2021-06-05
+Metropolitana,Primera,20,21332.0,2021-06-05
+Metropolitana,Primera,21,24183.0,2021-06-05
+Metropolitana,Primera,22,28322.0,2021-06-05
+Metropolitana,Primera,23,57299.0,2021-06-05
+Metropolitana,Primera,24,68905.0,2021-06-05
+Metropolitana,Primera,25,73778.0,2021-06-05
+Metropolitana,Primera,26,87941.0,2021-06-05
+Metropolitana,Primera,27,90214.0,2021-06-05
+Metropolitana,Primera,28,93044.0,2021-06-05
+Metropolitana,Primera,29,96283.0,2021-06-05
+Metropolitana,Primera,30,101212.0,2021-06-05
+Metropolitana,Primera,31,103624.0,2021-06-05
+Metropolitana,Primera,32,101918.0,2021-06-05
+Metropolitana,Primera,33,97517.0,2021-06-05
+Metropolitana,Primera,34,94033.0,2021-06-05
+Metropolitana,Primera,35,91606.0,2021-06-05
+Metropolitana,Primera,36,89435.0,2021-06-05
+Metropolitana,Primera,37,87479.0,2021-06-05
+Metropolitana,Primera,38,90421.0,2021-06-05
+Metropolitana,Primera,39,92513.0,2021-06-05
+Metropolitana,Primera,40,87256.0,2021-06-05
+Metropolitana,Primera,41,85090.0,2021-06-05
+Metropolitana,Primera,42,81503.0,2021-06-05
+Metropolitana,Primera,43,78895.0,2021-06-05
+Metropolitana,Primera,44,79298.0,2021-06-05
+Metropolitana,Primera,45,83520.0,2021-06-05
+Metropolitana,Primera,46,85705.0,2021-06-05
+Metropolitana,Primera,47,86501.0,2021-06-05
+Metropolitana,Primera,48,86859.0,2021-06-05
+Metropolitana,Primera,49,86394.0,2021-06-05
+Metropolitana,Primera,50,82875.0,2021-06-05
+Metropolitana,Primera,51,79360.0,2021-06-05
+Metropolitana,Primera,52,80707.0,2021-06-05
+Metropolitana,Primera,53,81574.0,2021-06-05
+Metropolitana,Primera,54,82385.0,2021-06-05
+Metropolitana,Primera,55,84155.0,2021-06-05
+Metropolitana,Primera,56,85075.0,2021-06-05
+Metropolitana,Primera,57,84155.0,2021-06-05
+Metropolitana,Primera,58,84860.0,2021-06-05
+Metropolitana,Primera,59,80421.0,2021-06-05
+Metropolitana,Primera,60,78924.0,2021-06-05
+Metropolitana,Primera,61,72989.0,2021-06-05
+Metropolitana,Primera,62,70690.0,2021-06-05
+Metropolitana,Primera,63,68791.0,2021-06-05
+Metropolitana,Primera,64,65133.0,2021-06-05
+Metropolitana,Primera,65,61161.0,2021-06-05
+Metropolitana,Primera,66,54667.0,2021-06-05
+Metropolitana,Primera,67,54299.0,2021-06-05
+Metropolitana,Primera,68,49563.0,2021-06-05
+Metropolitana,Primera,69,46495.0,2021-06-05
+Metropolitana,Primera,70,43986.0,2021-06-05
+Metropolitana,Primera,71,43004.0,2021-06-05
+Metropolitana,Primera,72,41235.0,2021-06-05
+Metropolitana,Primera,73,39094.0,2021-06-05
+Metropolitana,Primera,74,37089.0,2021-06-05
+Metropolitana,Primera,75,34429.0,2021-06-05
+Metropolitana,Primera,76,33007.0,2021-06-05
+Metropolitana,Primera,77,29962.0,2021-06-05
+Metropolitana,Primera,78,28114.0,2021-06-05
+Metropolitana,Primera,79,25621.0,2021-06-05
+Metropolitana,Primera,80,185114.0,2021-06-05
+Metropolitana,Segunda,15,0.0,2021-06-05
+Metropolitana,Segunda,16,0.0,2021-06-05
+Metropolitana,Segunda,17,0.0,2021-06-05
+Metropolitana,Segunda,18,11422.0,2021-06-05
+Metropolitana,Segunda,19,14346.0,2021-06-05
+Metropolitana,Segunda,20,17535.0,2021-06-05
+Metropolitana,Segunda,21,20061.0,2021-06-05
+Metropolitana,Segunda,22,23278.0,2021-06-05
+Metropolitana,Segunda,23,26685.0,2021-06-05
+Metropolitana,Segunda,24,29677.0,2021-06-05
+Metropolitana,Segunda,25,32796.0,2021-06-05
+Metropolitana,Segunda,26,35806.0,2021-06-05
+Metropolitana,Segunda,27,37106.0,2021-06-05
+Metropolitana,Segunda,28,39004.0,2021-06-05
+Metropolitana,Segunda,29,41138.0,2021-06-05
+Metropolitana,Segunda,30,43317.0,2021-06-05
+Metropolitana,Segunda,31,44767.0,2021-06-05
+Metropolitana,Segunda,32,44504.0,2021-06-05
+Metropolitana,Segunda,33,42859.0,2021-06-05
+Metropolitana,Segunda,34,41898.0,2021-06-05
+Metropolitana,Segunda,35,40479.0,2021-06-05
+Metropolitana,Segunda,36,39868.0,2021-06-05
+Metropolitana,Segunda,37,39311.0,2021-06-05
+Metropolitana,Segunda,38,41116.0,2021-06-05
+Metropolitana,Segunda,39,42403.0,2021-06-05
+Metropolitana,Segunda,40,54881.0,2021-06-05
+Metropolitana,Segunda,41,58436.0,2021-06-05
+Metropolitana,Segunda,42,57744.0,2021-06-05
+Metropolitana,Segunda,43,55288.0,2021-06-05
+Metropolitana,Segunda,44,55684.0,2021-06-05
+Metropolitana,Segunda,45,64136.0,2021-06-05
+Metropolitana,Segunda,46,69658.0,2021-06-05
+Metropolitana,Segunda,47,73140.0,2021-06-05
+Metropolitana,Segunda,48,76640.0,2021-06-05
+Metropolitana,Segunda,49,77030.0,2021-06-05
+Metropolitana,Segunda,50,74799.0,2021-06-05
+Metropolitana,Segunda,51,72121.0,2021-06-05
+Metropolitana,Segunda,52,73741.0,2021-06-05
+Metropolitana,Segunda,53,74781.0,2021-06-05
+Metropolitana,Segunda,54,75987.0,2021-06-05
+Metropolitana,Segunda,55,78041.0,2021-06-05
+Metropolitana,Segunda,56,79200.0,2021-06-05
+Metropolitana,Segunda,57,78734.0,2021-06-05
+Metropolitana,Segunda,58,79568.0,2021-06-05
+Metropolitana,Segunda,59,75744.0,2021-06-05
+Metropolitana,Segunda,60,74851.0,2021-06-05
+Metropolitana,Segunda,61,69398.0,2021-06-05
+Metropolitana,Segunda,62,67392.0,2021-06-05
+Metropolitana,Segunda,63,65929.0,2021-06-05
+Metropolitana,Segunda,64,62598.0,2021-06-05
+Metropolitana,Segunda,65,58943.0,2021-06-05
+Metropolitana,Segunda,66,52941.0,2021-06-05
+Metropolitana,Segunda,67,52665.0,2021-06-05
+Metropolitana,Segunda,68,48067.0,2021-06-05
+Metropolitana,Segunda,69,45174.0,2021-06-05
+Metropolitana,Segunda,70,42778.0,2021-06-05
+Metropolitana,Segunda,71,41890.0,2021-06-05
+Metropolitana,Segunda,72,40275.0,2021-06-05
+Metropolitana,Segunda,73,38119.0,2021-06-05
+Metropolitana,Segunda,74,36265.0,2021-06-05
+Metropolitana,Segunda,75,33651.0,2021-06-05
+Metropolitana,Segunda,76,32216.0,2021-06-05
+Metropolitana,Segunda,77,29265.0,2021-06-05
+Metropolitana,Segunda,78,27491.0,2021-06-05
+Metropolitana,Segunda,79,25051.0,2021-06-05
+Metropolitana,Segunda,80,180495.0,2021-06-05
+Tarapacá,Primera,15,0.0,2021-06-05
+Tarapacá,Primera,16,0.0,2021-06-05
+Tarapacá,Primera,17,0.0,2021-06-05
+Tarapacá,Primera,18,1603.0,2021-06-05
+Tarapacá,Primera,19,1930.0,2021-06-05
+Tarapacá,Primera,20,1961.0,2021-06-05
+Tarapacá,Primera,21,2096.0,2021-06-05
+Tarapacá,Primera,22,2404.0,2021-06-05
+Tarapacá,Primera,23,3147.0,2021-06-05
+Tarapacá,Primera,24,3345.0,2021-06-05
+Tarapacá,Primera,25,3555.0,2021-06-05
+Tarapacá,Primera,26,3712.0,2021-06-05
+Tarapacá,Primera,27,3824.0,2021-06-05
+Tarapacá,Primera,28,4020.0,2021-06-05
+Tarapacá,Primera,29,4078.0,2021-06-05
+Tarapacá,Primera,30,4467.0,2021-06-05
+Tarapacá,Primera,31,4417.0,2021-06-05
+Tarapacá,Primera,32,4449.0,2021-06-05
+Tarapacá,Primera,33,4420.0,2021-06-05
+Tarapacá,Primera,34,4194.0,2021-06-05
+Tarapacá,Primera,35,4033.0,2021-06-05
+Tarapacá,Primera,36,4109.0,2021-06-05
+Tarapacá,Primera,37,4067.0,2021-06-05
+Tarapacá,Primera,38,4292.0,2021-06-05
+Tarapacá,Primera,39,4385.0,2021-06-05
+Tarapacá,Primera,40,4193.0,2021-06-05
+Tarapacá,Primera,41,3955.0,2021-06-05
+Tarapacá,Primera,42,3774.0,2021-06-05
+Tarapacá,Primera,43,3790.0,2021-06-05
+Tarapacá,Primera,44,3837.0,2021-06-05
+Tarapacá,Primera,45,3623.0,2021-06-05
+Tarapacá,Primera,46,3640.0,2021-06-05
+Tarapacá,Primera,47,3734.0,2021-06-05
+Tarapacá,Primera,48,3721.0,2021-06-05
+Tarapacá,Primera,49,3645.0,2021-06-05
+Tarapacá,Primera,50,3358.0,2021-06-05
+Tarapacá,Primera,51,3320.0,2021-06-05
+Tarapacá,Primera,52,3125.0,2021-06-05
+Tarapacá,Primera,53,3200.0,2021-06-05
+Tarapacá,Primera,54,3229.0,2021-06-05
+Tarapacá,Primera,55,3119.0,2021-06-05
+Tarapacá,Primera,56,3173.0,2021-06-05
+Tarapacá,Primera,57,3155.0,2021-06-05
+Tarapacá,Primera,58,3177.0,2021-06-05
+Tarapacá,Primera,59,3060.0,2021-06-05
+Tarapacá,Primera,60,3012.0,2021-06-05
+Tarapacá,Primera,61,2712.0,2021-06-05
+Tarapacá,Primera,62,2629.0,2021-06-05
+Tarapacá,Primera,63,2590.0,2021-06-05
+Tarapacá,Primera,64,2533.0,2021-06-05
+Tarapacá,Primera,65,2653.0,2021-06-05
+Tarapacá,Primera,66,2274.0,2021-06-05
+Tarapacá,Primera,67,2283.0,2021-06-05
+Tarapacá,Primera,68,1963.0,2021-06-05
+Tarapacá,Primera,69,1796.0,2021-06-05
+Tarapacá,Primera,70,1751.0,2021-06-05
+Tarapacá,Primera,71,1545.0,2021-06-05
+Tarapacá,Primera,72,1462.0,2021-06-05
+Tarapacá,Primera,73,1351.0,2021-06-05
+Tarapacá,Primera,74,1246.0,2021-06-05
+Tarapacá,Primera,75,1085.0,2021-06-05
+Tarapacá,Primera,76,1008.0,2021-06-05
+Tarapacá,Primera,77,954.0,2021-06-05
+Tarapacá,Primera,78,830.0,2021-06-05
+Tarapacá,Primera,79,719.0,2021-06-05
+Tarapacá,Primera,80,5150.0,2021-06-05
+Tarapacá,Segunda,15,0.0,2021-06-05
+Tarapacá,Segunda,16,0.0,2021-06-05
+Tarapacá,Segunda,17,0.0,2021-06-05
+Tarapacá,Segunda,18,1113.0,2021-06-05
+Tarapacá,Segunda,19,1336.0,2021-06-05
+Tarapacá,Segunda,20,1334.0,2021-06-05
+Tarapacá,Segunda,21,1468.0,2021-06-05
+Tarapacá,Segunda,22,1641.0,2021-06-05
+Tarapacá,Segunda,23,1775.0,2021-06-05
+Tarapacá,Segunda,24,1938.0,2021-06-05
+Tarapacá,Segunda,25,2089.0,2021-06-05
+Tarapacá,Segunda,26,2133.0,2021-06-05
+Tarapacá,Segunda,27,2197.0,2021-06-05
+Tarapacá,Segunda,28,2283.0,2021-06-05
+Tarapacá,Segunda,29,2410.0,2021-06-05
+Tarapacá,Segunda,30,2638.0,2021-06-05
+Tarapacá,Segunda,31,2631.0,2021-06-05
+Tarapacá,Segunda,32,2605.0,2021-06-05
+Tarapacá,Segunda,33,2593.0,2021-06-05
+Tarapacá,Segunda,34,2477.0,2021-06-05
+Tarapacá,Segunda,35,2418.0,2021-06-05
+Tarapacá,Segunda,36,2481.0,2021-06-05
+Tarapacá,Segunda,37,2491.0,2021-06-05
+Tarapacá,Segunda,38,2618.0,2021-06-05
+Tarapacá,Segunda,39,2715.0,2021-06-05
+Tarapacá,Segunda,40,2882.0,2021-06-05
+Tarapacá,Segunda,41,2786.0,2021-06-05
+Tarapacá,Segunda,42,2762.0,2021-06-05
+Tarapacá,Segunda,43,2795.0,2021-06-05
+Tarapacá,Segunda,44,2887.0,2021-06-05
+Tarapacá,Segunda,45,2832.0,2021-06-05
+Tarapacá,Segunda,46,2941.0,2021-06-05
+Tarapacá,Segunda,47,3026.0,2021-06-05
+Tarapacá,Segunda,48,3161.0,2021-06-05
+Tarapacá,Segunda,49,3111.0,2021-06-05
+Tarapacá,Segunda,50,2871.0,2021-06-05
+Tarapacá,Segunda,51,2863.0,2021-06-05
+Tarapacá,Segunda,52,2731.0,2021-06-05
+Tarapacá,Segunda,53,2836.0,2021-06-05
+Tarapacá,Segunda,54,2867.0,2021-06-05
+Tarapacá,Segunda,55,2763.0,2021-06-05
+Tarapacá,Segunda,56,2834.0,2021-06-05
+Tarapacá,Segunda,57,2835.0,2021-06-05
+Tarapacá,Segunda,58,2870.0,2021-06-05
+Tarapacá,Segunda,59,2779.0,2021-06-05
+Tarapacá,Segunda,60,2788.0,2021-06-05
+Tarapacá,Segunda,61,2502.0,2021-06-05
+Tarapacá,Segunda,62,2452.0,2021-06-05
+Tarapacá,Segunda,63,2425.0,2021-06-05
+Tarapacá,Segunda,64,2395.0,2021-06-05
+Tarapacá,Segunda,65,2525.0,2021-06-05
+Tarapacá,Segunda,66,2174.0,2021-06-05
+Tarapacá,Segunda,67,2160.0,2021-06-05
+Tarapacá,Segunda,68,1878.0,2021-06-05
+Tarapacá,Segunda,69,1719.0,2021-06-05
+Tarapacá,Segunda,70,1674.0,2021-06-05
+Tarapacá,Segunda,71,1488.0,2021-06-05
+Tarapacá,Segunda,72,1406.0,2021-06-05
+Tarapacá,Segunda,73,1306.0,2021-06-05
+Tarapacá,Segunda,74,1213.0,2021-06-05
+Tarapacá,Segunda,75,1048.0,2021-06-05
+Tarapacá,Segunda,76,981.0,2021-06-05
+Tarapacá,Segunda,77,923.0,2021-06-05
+Tarapacá,Segunda,78,805.0,2021-06-05
+Tarapacá,Segunda,79,689.0,2021-06-05
+Tarapacá,Segunda,80,4991.0,2021-06-05
+Valparaíso,Primera,15,0.0,2021-06-05
+Valparaíso,Primera,16,0.0,2021-06-05
+Valparaíso,Primera,17,0.0,2021-06-05
+Valparaíso,Primera,18,4194.0,2021-06-05
+Valparaíso,Primera,19,5128.0,2021-06-05
+Valparaíso,Primera,20,6071.0,2021-06-05
+Valparaíso,Primera,21,6708.0,2021-06-05
+Valparaíso,Primera,22,7767.0,2021-06-05
+Valparaíso,Primera,23,13955.0,2021-06-05
+Valparaíso,Primera,24,16162.0,2021-06-05
+Valparaíso,Primera,25,16892.0,2021-06-05
+Valparaíso,Primera,26,19647.0,2021-06-05
+Valparaíso,Primera,27,20048.0,2021-06-05
+Valparaíso,Primera,28,20746.0,2021-06-05
+Valparaíso,Primera,29,21244.0,2021-06-05
+Valparaíso,Primera,30,22746.0,2021-06-05
+Valparaíso,Primera,31,22848.0,2021-06-05
+Valparaíso,Primera,32,22645.0,2021-06-05
+Valparaíso,Primera,33,21569.0,2021-06-05
+Valparaíso,Primera,34,21250.0,2021-06-05
+Valparaíso,Primera,35,20474.0,2021-06-05
+Valparaíso,Primera,36,20201.0,2021-06-05
+Valparaíso,Primera,37,20471.0,2021-06-05
+Valparaíso,Primera,38,21615.0,2021-06-05
+Valparaíso,Primera,39,21862.0,2021-06-05
+Valparaíso,Primera,40,20706.0,2021-06-05
+Valparaíso,Primera,41,20374.0,2021-06-05
+Valparaíso,Primera,42,20047.0,2021-06-05
+Valparaíso,Primera,43,19287.0,2021-06-05
+Valparaíso,Primera,44,19950.0,2021-06-05
+Valparaíso,Primera,45,20563.0,2021-06-05
+Valparaíso,Primera,46,21076.0,2021-06-05
+Valparaíso,Primera,47,21093.0,2021-06-05
+Valparaíso,Primera,48,21066.0,2021-06-05
+Valparaíso,Primera,49,20770.0,2021-06-05
+Valparaíso,Primera,50,20690.0,2021-06-05
+Valparaíso,Primera,51,20092.0,2021-06-05
+Valparaíso,Primera,52,21075.0,2021-06-05
+Valparaíso,Primera,53,21842.0,2021-06-05
+Valparaíso,Primera,54,22477.0,2021-06-05
+Valparaíso,Primera,55,22585.0,2021-06-05
+Valparaíso,Primera,56,22915.0,2021-06-05
+Valparaíso,Primera,57,22916.0,2021-06-05
+Valparaíso,Primera,58,23385.0,2021-06-05
+Valparaíso,Primera,59,22452.0,2021-06-05
+Valparaíso,Primera,60,22221.0,2021-06-05
+Valparaíso,Primera,61,21192.0,2021-06-05
+Valparaíso,Primera,62,20856.0,2021-06-05
+Valparaíso,Primera,63,20819.0,2021-06-05
+Valparaíso,Primera,64,19682.0,2021-06-05
+Valparaíso,Primera,65,19162.0,2021-06-05
+Valparaíso,Primera,66,17704.0,2021-06-05
+Valparaíso,Primera,67,17599.0,2021-06-05
+Valparaíso,Primera,68,16383.0,2021-06-05
+Valparaíso,Primera,69,15474.0,2021-06-05
+Valparaíso,Primera,70,14486.0,2021-06-05
+Valparaíso,Primera,71,14395.0,2021-06-05
+Valparaíso,Primera,72,13694.0,2021-06-05
+Valparaíso,Primera,73,13054.0,2021-06-05
+Valparaíso,Primera,74,12326.0,2021-06-05
+Valparaíso,Primera,75,11889.0,2021-06-05
+Valparaíso,Primera,76,11384.0,2021-06-05
+Valparaíso,Primera,77,10315.0,2021-06-05
+Valparaíso,Primera,78,9409.0,2021-06-05
+Valparaíso,Primera,79,8811.0,2021-06-05
+Valparaíso,Primera,80,63565.0,2021-06-05
+Valparaíso,Segunda,15,0.0,2021-06-05
+Valparaíso,Segunda,16,0.0,2021-06-05
+Valparaíso,Segunda,17,0.0,2021-06-05
+Valparaíso,Segunda,18,3309.0,2021-06-05
+Valparaíso,Segunda,19,4222.0,2021-06-05
+Valparaíso,Segunda,20,5017.0,2021-06-05
+Valparaíso,Segunda,21,5545.0,2021-06-05
+Valparaíso,Segunda,22,6393.0,2021-06-05
+Valparaíso,Segunda,23,7020.0,2021-06-05
+Valparaíso,Segunda,24,7833.0,2021-06-05
+Valparaíso,Segunda,25,8286.0,2021-06-05
+Valparaíso,Segunda,26,9094.0,2021-06-05
+Valparaíso,Segunda,27,9267.0,2021-06-05
+Valparaíso,Segunda,28,9748.0,2021-06-05
+Valparaíso,Segunda,29,10275.0,2021-06-05
+Valparaíso,Segunda,30,10747.0,2021-06-05
+Valparaíso,Segunda,31,10932.0,2021-06-05
+Valparaíso,Segunda,32,10970.0,2021-06-05
+Valparaíso,Segunda,33,10307.0,2021-06-05
+Valparaíso,Segunda,34,10341.0,2021-06-05
+Valparaíso,Segunda,35,9891.0,2021-06-05
+Valparaíso,Segunda,36,9783.0,2021-06-05
+Valparaíso,Segunda,37,10008.0,2021-06-05
+Valparaíso,Segunda,38,10504.0,2021-06-05
+Valparaíso,Segunda,39,10834.0,2021-06-05
+Valparaíso,Segunda,40,13237.0,2021-06-05
+Valparaíso,Segunda,41,14136.0,2021-06-05
+Valparaíso,Segunda,42,14587.0,2021-06-05
+Valparaíso,Segunda,43,14214.0,2021-06-05
+Valparaíso,Segunda,44,14774.0,2021-06-05
+Valparaíso,Segunda,45,16098.0,2021-06-05
+Valparaíso,Segunda,46,17230.0,2021-06-05
+Valparaíso,Segunda,47,17939.0,2021-06-05
+Valparaíso,Segunda,48,18596.0,2021-06-05
+Valparaíso,Segunda,49,18484.0,2021-06-05
+Valparaíso,Segunda,50,18659.0,2021-06-05
+Valparaíso,Segunda,51,18166.0,2021-06-05
+Valparaíso,Segunda,52,19138.0,2021-06-05
+Valparaíso,Segunda,53,19952.0,2021-06-05
+Valparaíso,Segunda,54,20673.0,2021-06-05
+Valparaíso,Segunda,55,20748.0,2021-06-05
+Valparaíso,Segunda,56,21213.0,2021-06-05
+Valparaíso,Segunda,57,21338.0,2021-06-05
+Valparaíso,Segunda,58,21826.0,2021-06-05
+Valparaíso,Segunda,59,21073.0,2021-06-05
+Valparaíso,Segunda,60,20991.0,2021-06-05
+Valparaíso,Segunda,61,20053.0,2021-06-05
+Valparaíso,Segunda,62,19818.0,2021-06-05
+Valparaíso,Segunda,63,19881.0,2021-06-05
+Valparaíso,Segunda,64,18774.0,2021-06-05
+Valparaíso,Segunda,65,18418.0,2021-06-05
+Valparaíso,Segunda,66,17068.0,2021-06-05
+Valparaíso,Segunda,67,17014.0,2021-06-05
+Valparaíso,Segunda,68,15838.0,2021-06-05
+Valparaíso,Segunda,69,14982.0,2021-06-05
+Valparaíso,Segunda,70,14064.0,2021-06-05
+Valparaíso,Segunda,71,13963.0,2021-06-05
+Valparaíso,Segunda,72,13335.0,2021-06-05
+Valparaíso,Segunda,73,12737.0,2021-06-05
+Valparaíso,Segunda,74,12005.0,2021-06-05
+Valparaíso,Segunda,75,11597.0,2021-06-05
+Valparaíso,Segunda,76,11117.0,2021-06-05
+Valparaíso,Segunda,77,10062.0,2021-06-05
+Valparaíso,Segunda,78,9175.0,2021-06-05
+Valparaíso,Segunda,79,8593.0,2021-06-05
+Valparaíso,Segunda,80,61892.0,2021-06-05
+Ñuble,Primera,15,0.0,2021-06-05
+Ñuble,Primera,16,0.0,2021-06-05
+Ñuble,Primera,17,0.0,2021-06-05
+Ñuble,Primera,18,2268.0,2021-06-05
+Ñuble,Primera,19,2452.0,2021-06-05
+Ñuble,Primera,20,2367.0,2021-06-05
+Ñuble,Primera,21,2531.0,2021-06-05
+Ñuble,Primera,22,2801.0,2021-06-05
+Ñuble,Primera,23,4299.0,2021-06-05
+Ñuble,Primera,24,4603.0,2021-06-05
+Ñuble,Primera,25,4465.0,2021-06-05
+Ñuble,Primera,26,4990.0,2021-06-05
+Ñuble,Primera,27,5047.0,2021-06-05
+Ñuble,Primera,28,5328.0,2021-06-05
+Ñuble,Primera,29,5446.0,2021-06-05
+Ñuble,Primera,30,5499.0,2021-06-05
+Ñuble,Primera,31,5645.0,2021-06-05
+Ñuble,Primera,32,5544.0,2021-06-05
+Ñuble,Primera,33,5454.0,2021-06-05
+Ñuble,Primera,34,5500.0,2021-06-05
+Ñuble,Primera,35,5363.0,2021-06-05
+Ñuble,Primera,36,5221.0,2021-06-05
+Ñuble,Primera,37,5122.0,2021-06-05
+Ñuble,Primera,38,5581.0,2021-06-05
+Ñuble,Primera,39,5678.0,2021-06-05
+Ñuble,Primera,40,5617.0,2021-06-05
+Ñuble,Primera,41,5365.0,2021-06-05
+Ñuble,Primera,42,5195.0,2021-06-05
+Ñuble,Primera,43,5271.0,2021-06-05
+Ñuble,Primera,44,5122.0,2021-06-05
+Ñuble,Primera,45,5729.0,2021-06-05
+Ñuble,Primera,46,6016.0,2021-06-05
+Ñuble,Primera,47,6292.0,2021-06-05
+Ñuble,Primera,48,6657.0,2021-06-05
+Ñuble,Primera,49,6591.0,2021-06-05
+Ñuble,Primera,50,6538.0,2021-06-05
+Ñuble,Primera,51,6280.0,2021-06-05
+Ñuble,Primera,52,6675.0,2021-06-05
+Ñuble,Primera,53,6754.0,2021-06-05
+Ñuble,Primera,54,6807.0,2021-06-05
+Ñuble,Primera,55,6775.0,2021-06-05
+Ñuble,Primera,56,6703.0,2021-06-05
+Ñuble,Primera,57,6598.0,2021-06-05
+Ñuble,Primera,58,6507.0,2021-06-05
+Ñuble,Primera,59,6474.0,2021-06-05
+Ñuble,Primera,60,6548.0,2021-06-05
+Ñuble,Primera,61,6015.0,2021-06-05
+Ñuble,Primera,62,5894.0,2021-06-05
+Ñuble,Primera,63,5754.0,2021-06-05
+Ñuble,Primera,64,5565.0,2021-06-05
+Ñuble,Primera,65,5224.0,2021-06-05
+Ñuble,Primera,66,5062.0,2021-06-05
+Ñuble,Primera,67,5004.0,2021-06-05
+Ñuble,Primera,68,4634.0,2021-06-05
+Ñuble,Primera,69,4238.0,2021-06-05
+Ñuble,Primera,70,4089.0,2021-06-05
+Ñuble,Primera,71,3938.0,2021-06-05
+Ñuble,Primera,72,3845.0,2021-06-05
+Ñuble,Primera,73,3660.0,2021-06-05
+Ñuble,Primera,74,3376.0,2021-06-05
+Ñuble,Primera,75,3250.0,2021-06-05
+Ñuble,Primera,76,2931.0,2021-06-05
+Ñuble,Primera,77,2759.0,2021-06-05
+Ñuble,Primera,78,2597.0,2021-06-05
+Ñuble,Primera,79,2403.0,2021-06-05
+Ñuble,Primera,80,16431.0,2021-06-05
+Ñuble,Segunda,15,0.0,2021-06-05
+Ñuble,Segunda,16,0.0,2021-06-05
+Ñuble,Segunda,17,0.0,2021-06-05
+Ñuble,Segunda,18,1094.0,2021-06-05
+Ñuble,Segunda,19,1359.0,2021-06-05
+Ñuble,Segunda,20,1369.0,2021-06-05
+Ñuble,Segunda,21,1563.0,2021-06-05
+Ñuble,Segunda,22,1756.0,2021-06-05
+Ñuble,Segunda,23,1949.0,2021-06-05
+Ñuble,Segunda,24,2166.0,2021-06-05
+Ñuble,Segunda,25,2241.0,2021-06-05
+Ñuble,Segunda,26,2377.0,2021-06-05
+Ñuble,Segunda,27,2467.0,2021-06-05
+Ñuble,Segunda,28,2636.0,2021-06-05
+Ñuble,Segunda,29,2654.0,2021-06-05
+Ñuble,Segunda,30,2732.0,2021-06-05
+Ñuble,Segunda,31,2807.0,2021-06-05
+Ñuble,Segunda,32,2764.0,2021-06-05
+Ñuble,Segunda,33,2762.0,2021-06-05
+Ñuble,Segunda,34,2758.0,2021-06-05
+Ñuble,Segunda,35,2688.0,2021-06-05
+Ñuble,Segunda,36,2656.0,2021-06-05
+Ñuble,Segunda,37,2612.0,2021-06-05
+Ñuble,Segunda,38,2870.0,2021-06-05
+Ñuble,Segunda,39,2908.0,2021-06-05
+Ñuble,Segunda,40,3549.0,2021-06-05
+Ñuble,Segunda,41,3565.0,2021-06-05
+Ñuble,Segunda,42,3598.0,2021-06-05
+Ñuble,Segunda,43,3768.0,2021-06-05
+Ñuble,Segunda,44,3776.0,2021-06-05
+Ñuble,Segunda,45,4508.0,2021-06-05
+Ñuble,Segunda,46,4893.0,2021-06-05
+Ñuble,Segunda,47,5245.0,2021-06-05
+Ñuble,Segunda,48,5793.0,2021-06-05
+Ñuble,Segunda,49,5798.0,2021-06-05
+Ñuble,Segunda,50,5816.0,2021-06-05
+Ñuble,Segunda,51,5628.0,2021-06-05
+Ñuble,Segunda,52,6016.0,2021-06-05
+Ñuble,Segunda,53,6135.0,2021-06-05
+Ñuble,Segunda,54,6220.0,2021-06-05
+Ñuble,Segunda,55,6211.0,2021-06-05
+Ñuble,Segunda,56,6171.0,2021-06-05
+Ñuble,Segunda,57,6136.0,2021-06-05
+Ñuble,Segunda,58,6062.0,2021-06-05
+Ñuble,Segunda,59,6054.0,2021-06-05
+Ñuble,Segunda,60,6216.0,2021-06-05
+Ñuble,Segunda,61,5701.0,2021-06-05
+Ñuble,Segunda,62,5648.0,2021-06-05
+Ñuble,Segunda,63,5529.0,2021-06-05
+Ñuble,Segunda,64,5338.0,2021-06-05
+Ñuble,Segunda,65,5047.0,2021-06-05
+Ñuble,Segunda,66,4919.0,2021-06-05
+Ñuble,Segunda,67,4869.0,2021-06-05
+Ñuble,Segunda,68,4509.0,2021-06-05
+Ñuble,Segunda,69,4123.0,2021-06-05
+Ñuble,Segunda,70,3985.0,2021-06-05
+Ñuble,Segunda,71,3827.0,2021-06-05
+Ñuble,Segunda,72,3750.0,2021-06-05
+Ñuble,Segunda,73,3562.0,2021-06-05
+Ñuble,Segunda,74,3306.0,2021-06-05
+Ñuble,Segunda,75,3159.0,2021-06-05
+Ñuble,Segunda,76,2846.0,2021-06-05
+Ñuble,Segunda,77,2679.0,2021-06-05
+Ñuble,Segunda,78,2526.0,2021-06-05
+Ñuble,Segunda,79,2331.0,2021-06-05
+Ñuble,Segunda,80,15988.0,2021-06-05
