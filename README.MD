@@ -18,11 +18,11 @@ Keywords:
 <h3 id="citation" align="center">
 📜️ Citation
 </h3>
+
+```
 D. Sauré, I. Neira, M. Goic, M. O’Ryan, J. P. Torres, A. Bruhn,M. Ferres, J. Angulo, M. Vera, L. J. Basso, Infection with SARS-CoV-2 Variant Gamma (P.1) in Chile Increased ICU
 Admission Risk Three to Five-Fold (Unpublished)
 (2021).
-```
-
 ```
 <h3 id="Libraries" align="center">
 Principal Libraries
