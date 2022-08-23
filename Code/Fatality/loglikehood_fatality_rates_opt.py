@@ -12,6 +12,7 @@ minimizando
 
 import requests
 import io
+import sys
 import os
 import json
 from urllib.request import urlretrieve #open url
@@ -28,7 +29,23 @@ from scipy.optimize import minimize,curve_fit
 
 import statsmodels.api as sm
 
-from data_processing import prepare_producto_10,prepare_producto_16
+path_projet=os.getcwd().rsplit('ICU_Simulations',1)[0]
+if path_projet[-1]!='/':
+    path_projet+='/'
+path_projet+='ICU_Simulations/'
+path_ETL='Code/ETL'
+module_path=path_projet+path_ETL
+if module_path not in sys.path:
+    sys.path.append(module_path)
+    
+from data_processing import read_data,prepare_producto_10,prepare_producto_16
+
+path_icu='Code/icu_simulation'
+module_path=path_projet+path_icu
+if module_path not in sys.path:
+    sys.path.append(module_path)
+from main_simulation_icu_2021 import call_icu_simulation_2021
+
 from datetime import datetime,timedelta
 pd.set_option('display.float_format', lambda x: '%.9f' % x)
 
@@ -209,7 +226,7 @@ def main_loglikehood_experiment_restringido(dead,icu):
     #f, p, NULL_HYPOTHESIS=f_test(se[0], se[1],N,alpha=0.05,alt="two_sided")
     data_smpl = pd.DataFrame(data, index=["y", "ICU"])
     data_smpl= data_smpl.T
-    y_mdl = sm.OLS.from_formula("y ~ ICU ", data = data_smpl)
+    y_mdl = sm.OLS.from_formula("y ~ ICU-1 ", data = data_smpl)
     y_mdl_fit = y_mdl.fit()
     print(y_mdl_fit.summary().tables[1])
     LL=y_mdl_fit.llf
@@ -304,7 +321,7 @@ def f_test_OLS(data):
     
     data_smpl = pd.DataFrame(data, index=["y", "ICU_orig", "ICU_gamma"])
     data_smpl= data_smpl.T
-    y_mdl = sm.OLS.from_formula("y ~ ICU_orig + ICU_gamma ", data = data_smpl)
+    y_mdl = sm.OLS.from_formula("y ~ ICU_orig + ICU_gamma -1 ", data = data_smpl)
     y_mdl_fit = y_mdl.fit()
     LL=y_mdl_fit.llf
     print(f"\n Log likehhod {LL}")
@@ -441,10 +458,12 @@ def LR_test(df_irrestricto, df_restringido, prob = 0.95):
         print("calculate p value: {}".format(round(p,4)))
 
 
+if __name__ == '__main__':
+    data = read_data()
+    uci,dead,dict_main_dead = call_icu_simulation_2021(data,params=None,
+                        save_data=False,
+                        update_data=False)
+    df_irrestricto=main_fit_fatalitity_loglikehood(data,dict_main_dead,W=29,modelo_irrestricto=True)
+    df_restringido=main_fit_fatalitity_loglikehood(data,dict_main_dead,W=29,modelo_irrestricto=False)
+    LR_test(df_irrestricto, df_restringido, prob = 0.95)
 
-
-"""
-df_irrestricto=main_fit_fatalitity_loglikehood(data,dict_main_dead,W=29,modelo_irrestricto=True)
-df_restringido=main_fit_fatalitity_loglikehood(data,dict_main_dead,W=29,modelo_irrestricto=False)
-LR_test(df_irrestricto, df_restringido, prob = 0.95)
-"""

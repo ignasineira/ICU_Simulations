@@ -73,6 +73,7 @@ def intervalo_confianza(data,inf_today, confidence=0.95, print_to_console=0, pri
 class Camas_UCI():
     def __init__(self,data,ID_grupo_etario,probability_not_vac, p_to_uci,n_to_uci,p_in_uci,n_in_uci):
         """
+        Not vacc include
         Input:
             data: dictionary with very useful information
             ID_grupo_etario: id of the age group to simulate

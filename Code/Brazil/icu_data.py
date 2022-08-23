@@ -5,15 +5,12 @@ Created on Thu Jul 14 11:39:49 2022
 
 @author: ineira
 
-
-
-
 Registro de Ocupação Hospitalar COVID-19 - 2020
 
 https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/LEITOS/2022-07-12/esus-vepi.LeitoOcupacao_2020.csv
  
 --> check data from h
-ttps://transparenciacovid19.ok.org.br/files/ESPECIAL_Transparencia-Covid19_OcupacaoLeitos_01.pdf
+https://transparenciacovid19.ok.org.br/files/ESPECIAL_Transparencia-Covid19_OcupacaoLeitos_01.pdf
 https://github.com/okfn-brasil/transparencia-leitos-covid-analise/blob/main/docs/manual-de-utilizacao-da-api-da-leitos.pdf
 
 cnes: estabelecimentos-->https://raw.githubusercontent.com/okfn-brasil/transparencia-leitos-covid-analise/main/exports/hospitais_cnes.json
