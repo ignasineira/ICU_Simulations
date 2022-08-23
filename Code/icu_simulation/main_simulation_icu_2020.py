@@ -448,10 +448,16 @@ if __name__ == "__main__":
     #run experiment 
     data = read_data()
     uci= call_icu_simulation_2020(data,params,
-                        save_data=True,
-                        update_data=True)
+                        save_data=False,
+                        update_data=False)
     plot_uci_pred_sns(data, uci, W=29, pond=1, start_date='2020-07-01', end_date='2021-05-15', infected=False)
 
     result_dict=call_icu_MonteCarlos_simulation_2020(data,params,
-                            save_data=True,
-                            update_data=True)
+                            save_data=False,
+                            update_data=False)
+    #plot_uci_pred_final_model_2020(data, uci,
+                            result_dict,
+                            W=29, pond=1,
+                            start_date='2020-07-01',end_date='2021-05-15',
+                            probability_not_vac_new_variant=None)
+    
