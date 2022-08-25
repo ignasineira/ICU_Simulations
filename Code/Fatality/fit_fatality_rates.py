@@ -180,7 +180,24 @@ def main_fit_fatality_2021(data,dict_main_dead,fatality_rate, month=['May','July
     return df
 
 
-def main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','July'],W=29):
+
+def main_fit_fatality_2021_v2_time_window(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date='2021-05-15' ):
+    
+    date_end = datetime.strptime(end_date, '%Y-%m-%d').date()
+    
+    
+    list_end_date=[ (date_end-timedelta(i*15)).strftime('%Y-%m-%d')   for i in range(0,7)]
+    
+    df_list=[]
+    for date_end in list_end_date:
+        df=main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date=date_end )
+        df_list.append(df)
+        
+    return list_end_date, df_list
+  
+#list_end_date, df_list=   main_fit_fatality_2021_v2_time_window(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date='2021-05-15' )
+
+def main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date='2021-05-15' ):
     """
     1. give a range of time fit the curve 
     2. evaluate the MSE in beteween 01-07 to 31-12
@@ -192,7 +209,7 @@ def main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','J
     list_start_date=[f"2020-0{item}-01" if item <10 else f"2020-{item}-01" for item in range(5,13)]
     date='2021-01-01'
     start_date='2020-07-01';
-    end_date='2021-05-15'
+    
     dateID_start_date = data['date_to_dateID'][np.datetime64(start_date+"T00:00:00.000000000")]
     dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
     
@@ -250,7 +267,7 @@ def main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','J
             )
     df= pd.DataFrame(frames,columns=['start_date',  'Grupo de edad',"f_no_variant","f_variants",'mse'])
     dead_pred=np.stack(dead_pred,axis=0)
-    plot_dead_pred_sns(data, dead_pred, W=29, prob_dead=[1,1,1,1,1], start_date='2020-07-01',end_date='2021-05-15', infected=False)
+    plot_dead_pred_sns(data, dead_pred, W=29, prob_dead=[1,1,1,1,1], start_date='2020-07-01',end_date=end_date, infected=False)
     
     list_order_group=['<=39','40-49', '50-59', '60-69', '>=70']
 
@@ -332,6 +349,13 @@ def plot_dead_pred_sns(data, dead, W=29, prob_dead=[1,1,1,1,1], start_date='2020
     dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
     cols =['Grupo de edad', 'start_date','inf', 'dead', 'type']
     lst = []
+    
+    path_projet=os.getcwd().rsplit('ICU_Simulations',1)[0]+'ICU_Simulations/'
+    path_data='Image/Fatality/'
+    path=path_projet+path_data+end_date+'/'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    
     for g in range(len(groupID_to_group)):
         for date in range(dateID_start_date,dateID_end_date+1): 
             info = [groupID_to_group[g],dateID_to_date[date],data['inf'][g,date]*prob_dead[g]]
@@ -383,7 +407,10 @@ def plot_dead_pred_sns(data, dead, W=29, prob_dead=[1,1,1,1,1], start_date='2020
         #g.ax.legend(bbox_to_anchor=(1.01, 1.02), loc='upper left')
         plt.tight_layout()
         plt.gcf().autofmt_xdate()
-
+        try: 
+            ax.figure.savefig(path+'Image/Fatality/'+"Fatality_rate_time_window"+group_name+".png")
+        except:
+            ax.figure.savefig(path+"Fatality_rate_time_window"+group_name[:-2]+".png")
         plt.show()
 
 def plot_fatality_pred_sns_(data, dead,x_test, W=29, start_date='2020-07-01',end_date='2021-05-15', infected=False):
@@ -452,4 +479,28 @@ def plot_fatality_pred_sns_(data, dead,x_test, W=29, start_date='2020-07-01',end
 
 #plot_dead_pred_sns(data, dead, W=29, prob_dead=[0.33,0.33,0.8,0.22,1], start_date='2020-07-01',end_date='2021-05-15', infected=False)
     
-    
+
+
+"""
+#from  df,mse,fatality_rate=main_fit_fatality_2020(data,dict_main_dead,W=29)
+#july
+fatality_rate_aux={
+'<=39':	0.3821395835749183,
+'40-49':	0.4587238816489043,
+'50-59':	0.46569657311118495,
+'60-69':	0.7527682102124622,
+'>=70':	2.361623375121345}
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
