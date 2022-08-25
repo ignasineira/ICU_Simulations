@@ -584,7 +584,8 @@ if __name__ == "__main__":
                         save_data=False,
                         update_data=False)
     plot_uci_pred_sns(data, uci, W=29, pond=1, start_date='2020-07-01', end_date='2021-05-15', infected=False)
-
+"""
     result_dict=call_icu_MonteCarlos_simulation(data,params,
                             save_data=False,
                             update_data=False)
+"""
