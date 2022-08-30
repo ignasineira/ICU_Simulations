@@ -14,6 +14,9 @@ from urllib.request import urlretrieve #open url
 import pandas as pd
 import numpy as np
 
+pd.options.display.max_columns = None
+pd.options.display.max_rows = None
+
 from scipy.optimize import curve_fit 
 
 from data_processing import prepare_producto_10,prepare_producto_16
@@ -109,7 +112,9 @@ def main_fit_fatality_2020(data,dict_main_dead,W=29):
         with open(last_update_file, "w") as out:
             json.dump({'last_update':today},out)
 
-    return df,mse,fatality_rate 
+    return df,mse,fatality_rate
+
+
 
 #df_2020,mse,fatality_rate = main_fit_fatality_2020(data,dict_main_dead,W=29)
 
@@ -284,7 +289,7 @@ def main_fit_fatality_2021_v2(data,dict_main_dead,fatality_rate, month=['May','J
     list_order_group=['<=39','40-49', '50-59', '60-69', '>=70']
 
 
-    return df
+    return df, dead_pred_2021, dead_pred_2020
 
 def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09']
 ):
@@ -378,7 +383,164 @@ def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','J
     list_order_group=['<=39','40-49', '50-59', '60-69', '>=70']
     
 
-    return df
+    return df, dead_pred_2021, dead_pred_2020
+
+
+def main_fit_fatality_2020_v4(data,dict_main_dead,W=29):
+    """
+    1. give a range of time fit the curve 
+    2. evaluate the MSE in beteween 01-07 to 31-12
+    3. save result
+    
+    
+    """
+    dead=dict_main_dead['dict_dead_variant']
+    list_start_date=[f"2020-0{item}-01" if item <10 else f"2020-{item}-01" for item in range(5,13)]
+    start_date='2020-07-01';
+    end_date='2020-12-31'
+    dateID_start_date = data['date_to_dateID'][np.datetime64(start_date+"T00:00:00.000000000")]
+    dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
+    
+    groupID_to_group = data['groupID_to_group']
+
+
+    frames=[]
+    
+   
+    for date in list_start_date:
+        dateID_date = data['date_to_dateID'][np.datetime64(date+"T00:00:00.000000000")]
+        y=data['dead'][:4,dateID_date:dateID_end_date+1].sum(axis=0)
+        x= dead['Not variant'][:4,dateID_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0)
+        
+        fit = curve_fit(fit_dead_2020, x, y)
+        
+        
+        y_test=data['dead'][:4,dateID_start_date:dateID_end_date+1].sum(axis=0)
+        x_test= dead['Not variant'][:4,dateID_start_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0)
+        y_pred=x_test*fit[0][0]
+        mse= MSE(y_pred,y_test)
+        
+        print(f"For {pd.to_datetime(date).strftime('%B')} the fatality rate is: {fit[0][0]}")
+        
+        #save values
+        frames.append([
+            date,
+            pd.to_datetime(date).strftime('%B'),
+            'total',
+            fit[0][0],
+            mse]
+            )
+    df= pd.DataFrame(frames,columns=['start_date','month',  'Grupo de edad', 'fatality_rate','mse'])
+    
+
+    
+    mse=df.pivot(index="Grupo de edad",columns='month', values='mse')
+    fatality_rate= df.pivot(index="Grupo de edad",columns='month', values='fatality_rate')
+    order_column=[pd.to_datetime(item).strftime('%B')for item in list_start_date]
+    fatality_rate=fatality_rate[order_column]
+    mse=mse[order_column]
+    
+
+    return df,mse,fatality_rate 
+
+#df,mse,fatality_rate= main_fit_fatality_2020_v4(data,dict_main_dead,W=29)
+#df1, dead_pred_2021, dead_pred_2020=main_fit_fatality_2021_v4(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date_list= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09'])
+
+def main_fit_fatality_2021_v4(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date_list= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09']
+):
+    """
+    ucis a muerte agregados
+    given a moving windows
+    1. give a range of time fit the curve 
+    2. evaluate the MSE in beteween 01-07 to 31-12
+    3. save result
+    
+    
+    """
+    dead=dict_main_dead['dict_dead_variant']
+    date='2021-01-01'
+    start_date='2020-07-01';
+    
+    dateID_start_date = data['date_to_dateID'][np.datetime64(start_date+"T00:00:00.000000000")]
+    #dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
+    
+    groupID_to_group = data['groupID_to_group']
+    
+    lower_bound=fatality_rate.to_dict()['July']
+    upper_bound=fatality_rate.to_dict()['July']
+    group_name='total'
+
+    frames=[]
+    
+    dead_pred_model_2021=[]
+    dead_pred_model_2020=[]
+    for end_date in end_date_list:
+        dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
+        dateID_date = data['date_to_dateID'][np.datetime64(date+"T00:00:00.000000000")]
+        y=data['dead'][:4,dateID_date:dateID_end_date+1].sum(axis=0)
+        #x= dead['Not variant'][g,dateID_date-(W-1):dateID_end_date+1-(W-1)]
+        variantes=[]
+        no_variante=[]
+        for key,item in dict_main_dead['dict_dead_variant'].items():
+            if key== 'Not variant':
+                no_variante=item[:4,dateID_date-(W-1):dateID_end_date+1-(W-1)]
+            if key in ['variant', 'b117']:
+                variantes.append(item[:4,dateID_date-(W-1):dateID_end_date+1-(W-1)])
+                
+        array_variantes=np.array(variantes).sum(axis=0).sum(axis=0)
+        array_no_variantes=np.array(no_variante).sum(axis=0)
+                
+        x=np.stack([array_no_variantes,array_variantes],axis=0)
+        
+        fit = curve_fit(fit_dead_2021_v2, x, y,bounds=([lower_bound[group_name],0],  #lower_bound[group_name]*0.9, lower_bound[group_name]*0.9
+                                                    [upper_bound[group_name]*1.000001,10]))
+        
+        
+        
+        y_test=data['dead'][:4,dateID_start_date:dateID_end_date+1].sum(axis=0)
+        x_test= np.stack([item[:4,dateID_start_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0) for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
+        params_2021=np.array([fit[0][0],fit[0][1],fit[0][1]])
+        y_pred_model_2021=(x_test*np.array(params_2021).reshape((3, -1))).sum(axis=0)
+        mse_model_2021= MSE(y_pred_model_2021,y_test)
+        
+        params_2020=np.array([fit[0][0],fit[0][0],fit[0][0]])
+        y_pred_model_2020=(x_test*np.array(params_2020).reshape((3, -1))).sum(axis=0)
+        mse_model_2020= MSE(y_pred_model_2020,y_test)
+        
+        #save data all times series
+        x_test= np.stack([item[:4,:].sum(axis=0) for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
+        y_pred_model_2021=(x_test*np.array(params_2021).reshape((3, -1))).sum(axis=0)
+        dead_pred_model_2021.append(y_pred_model_2021)
+        
+        y_pred_model_2020=(x_test*np.array(params_2020).reshape((3, -1))).sum(axis=0)
+        dead_pred_model_2020.append(y_pred_model_2020)
+        
+        
+        y_test=data['dead'][:4,dateID_start_date:dateID_end_date+1].sum(axis=0)
+        x_test= np.stack([item[:4,dateID_start_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0) for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
+        params=np.array([fit[0][0],fit[0][1],fit[0][1]])
+        y_pred=(x_test*np.array(params).reshape((3, -1))).sum(axis=0)
+        mse= MSE(y_pred,y_test)
+        
+        #save values
+        frames.append([
+            end_date,
+            'total',
+            fit[0][0],fit[0][1],
+            mse_model_2021,mse_model_2020]
+            )
+    df= pd.DataFrame(frames,columns=['end_date',  'Grupo de edad',"f_no_variant","f_variants",'mse 2021','mse 2020'])
+    dead_pred_2021=np.stack(dead_pred_model_2021,axis=0)
+    dead_pred_2020=np.stack(dead_pred_model_2020,axis=0)
+    #plot_dead_pred_sns_moving_windows(data, dead_pred_2021,dead_pred_2020, W=29, prob_dead=[1,1,1,1,1], start_date='2020-07-01',end_date=end_date, infected=False)
+    
+    list_order_group=['<=39','40-49', '50-59', '60-69', '>=70']
+    
+    
+    
+    
+
+    return df, dead_pred_2021, dead_pred_2020
 
 
 
@@ -598,7 +760,76 @@ def plot_dead_pred_sns_moving_windows(data, dead_pred_2021,dead_pred_2020, W=29,
         except:
             ax.figure.savefig(path+"Fatality_rate_time_window"+group_name[:-2]+".png")
         plt.show()
+        
+        
+def plot_dead_pred_sns_moving_windows_model_2021_v4(data, dead_pred_2021,dead_pred_2020, W=29, prob_dead=[1,1,1,1,1], start_date='2020-07-01',end_date_list=['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09'], infected=False):
+    groupID_to_group = data['groupID_to_group']
+    dateID_to_date = data['dateID_to_date']
+    date_to_dateID = data["date_to_dateID"]
+    #start_date='2020-10-01'  
 
+    dateID_start_date = data['date_to_dateID'][np.datetime64(start_date+"T00:00:00.000000000")]
+    #dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
+    cols =['Grupo de edad', 'start_date','inf', 'dead', 'type']
+    #lst = []
+    
+    
+    end_date_list_ID=[data['date_to_dateID'][np.datetime64(item+"T00:00:00.000000000")] for item in end_date_list]
+    path_projet=os.getcwd().rsplit('ICU_Simulations',1)[0]+'ICU_Simulations/'
+    path_data='Image/Fatality/movable windows group by all'
+    path=path_projet+path_data+''+'/'
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+
+    for end_date in range(len(end_date_list_ID)):
+        lst = []
+        for date in range(dateID_start_date,end_date_list_ID[end_date]+1):
+            #if date<=end_date_list_ID[g]:
+            info = ['total',dateID_to_date[date],data['inf'][:4,date].sum(axis=0)*prob_dead[0]]
+            info1=info.copy()
+            info2=info.copy()
+            info3=info.copy()
+            info1.extend([data['dead'][:4,date].sum(), 'real'])
+            info2.extend([dead_pred_2021[end_date,date-(W-1)], 'predicted_2021'])
+            info3.extend([dead_pred_2020[end_date,date-(W-1)], 'predicted_2020'])
+            lst.append(info1)
+            lst.append(info2)
+            lst.append(info3)
+        df_res = pd.DataFrame(lst, columns=cols)
+        
+    
+        plt.subplots( figsize=(15, 9))
+        ax=sns.lineplot(x="start_date", y="dead",
+                                       hue="type",
+                                       palette= 'bright'#'Set3'
+                                       ,legend=True, data=df_res,sizes=((15, 9)))
+        
+        #ax=group_df.plot( kind='line', x="start_date", y=['uci_real', 'uci_pred'])
+        # set the title
+        ax.set(xlim=[df_res["start_date"].min()+pd.DateOffset(-2),df_res["start_date"].max()+pd.DateOffset(2)])
+        
+        ax.xaxis_date()
+        ax.xaxis.set_major_locator(mdates.MonthLocator())
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+        
+        
+        ax.axvspan(date2num(datetime(2021,1,1)), date2num(datetime(2021,1,3)), 
+               label="older adults",color="red", alpha=0.3)
+        
+        
+        
+        ax.axes.set_title("Timeseries dead for all the groups" ,fontsize=15)
+        ax.set_ylabel('N° Deads', fontsize=10)
+        ax.set_xlabel('Date', fontsize=10)
+        #ax.legend(['Dead today hampel', 'Dead today predicted (factor: '+ str(prob_dead[i])+')','Pacientes OUT UCI'],loc='upper left')
+        ax.legend(['Dead today hampel', 'Dead today predicted model 2021','Dead today predicted model 2020'],loc='upper left')
+    
+        #g.ax.legend(bbox_to_anchor=(1.01, 1.02), loc='upper left')
+        plt.tight_layout()
+        plt.gcf().autofmt_xdate()
+    
+        ax.figure.savefig(path+"Fatality_rate_time_window"+end_date_list[end_date]+".png")
+        plt.show()
+        
 
 
 #plot_dead_pred_sns(data, dead, W=29, prob_dead=[0.33,0.33,0.8,0.22,1], start_date='2020-07-01',end_date='2021-05-15', infected=False)
@@ -626,10 +857,41 @@ fatality_rate_aux={
 
 df,mse,fatality_rate=main_fit_fatality_2020(data,dict_main_dead,W=29)
 
-df1=main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-15','2021-02-09']
-)
+df1,dead_pred_2021,dead_pred_2020=main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-15','2021-02-09'])
 
 df[df.month=='July']
 df1
+
+
+start_date='2020-07-01'
+end_date='2021-05-15'
+dead_2021=dead_pred_2021.sum(axis=0)
+dead_2020=dead_pred_2020.sum(axis=0)
+groupID_to_group = data['groupID_to_group']
+dateID_to_date = data['dateID_to_date']
+date_to_dateID = data["date_to_dateID"]
+#start_date='2020-10-01'  
+
+dateID_start_date = data['date_to_dateID'][np.datetime64(start_date+"T00:00:00.000000000")]
+dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
+cols =['Grupo de edad', 'start_date', 'dead', 'type']
+    
+W=29
+for date in range(dateID_start_date,dateID_end_date):
+    #if date<=end_date_list_ID[g]:
+    info = ['total',dateID_to_date[date]]
+    info1=info.copy()
+    info2=info.copy()
+    info3=info.copy()
+    info1.extend([data['dead'][:,date].sum(), 'real'])
+    info2.extend([dead_pred_2021[date-(W-1)], 'predicted_2021'])
+    info3.extend([dead_pred_2020[date-(W-1)], 'predicted_2020'])
+    lst.append(info1)
+    lst.append(info2)
+    lst.append(info3)
+df_res = pd.DataFrame(lst, columns=cols)
+
+
+
 
 """
