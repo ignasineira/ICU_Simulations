@@ -59,8 +59,6 @@ def main_fit_fatality_2020_using_inf(data,dict_main_dead,W=0):
     dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
     
     groupID_to_group = data['groupID_to_group']
-
-
     frames=[]
     
     for g in range(len(groupID_to_group)):
@@ -76,7 +74,9 @@ def main_fit_fatality_2020_using_inf(data,dict_main_dead,W=0):
             y_test=data['dead'][g,dateID_start_date:dateID_end_date+1]
             x_test= inf_no_variant[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)]
             y_pred=x_test*fit[0][0]
-            plt.scatter(y_pred, y_test)
+            aux_date=[ data['dateID_to_date'][key] for key in range(dateID_start_date-(W-1),dateID_end_date+1-(W-1))]
+            plt.scatter(aux_date, y_pred)
+            plt.scatter(aux_date, y_test)
             plt.show()
             mse= MSE(y_pred,y_test)
             
@@ -172,33 +172,57 @@ def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','J
         
         fit = curve_fit(fit_dead_2021_v2, x, y,bounds=([lower_bound[group_name],0],  #lower_bound[group_name]*0.9, lower_bound[group_name]*0.9
                                                     [upper_bound[group_name]*1.000001,10]))
-        
+# =============================================================================
+#         print(y.shape,x.shape)
+#         aux_date=[ data['dateID_to_date'][key] for key in range(dateID_date-(W-1),dateID_end_date+1-(W-1))]
+#         print(len(aux_date))
+#         plt.scatter(aux_date, y)
+#         params_2021=np.array([fit[0][0],fit[0][1]])
+#         plt.scatter(aux_date,(x*np.array(params_2021).reshape((2, -1))).sum(axis=0))
+#         plt.show()
+# =============================================================================
         
         
         y_test=data['dead'][g,dateID_start_date:dateID_end_date+1]
-        x_test= np.stack([item[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)] for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
-        params_2021=np.array([fit[0][0],fit[0][1],fit[0][1]])
-        y_pred_model_2021=(x_test*np.array(params_2021).reshape((3, -1))).sum(axis=0)
-        mse_model_2021= MSE(y_pred_model_2021,y_test)
         
-        params_2020=np.array([fit[0][0],fit[0][0],fit[0][0]])
-        y_pred_model_2020=(x_test*np.array(params_2020).reshape((3, -1))).sum(axis=0)
+        no_variante=inf_no_variant[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)]
+        variantes=[inf_new_variant[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)],inf_b117[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)]]
+        array_variantes=np.array(variantes).sum(axis=0)
+        array_no_variantes=np.array(no_variante)
+                
+        x_test=np.stack([array_no_variantes,array_variantes],axis=0)
+        params_2021=np.array([fit[0][0],fit[0][1]])
+        y_pred_model_2021=(x_test*np.array(params_2021).reshape((2, -1))).sum(axis=0)
+        mse_model_2021= MSE(y_pred_model_2021,y_test)
+
+        
+        params_2020=np.array([fit[0][0],fit[0][0]])
+        y_pred_model_2020=(x_test*np.array(params_2020).reshape((2, -1))).sum(axis=0)
         mse_model_2020= MSE(y_pred_model_2020,y_test)
         
+# =============================================================================
+#         #plot data
+#         aux_date=[ data['dateID_to_date'][key] for key in range(dateID_start_date-(W-1),dateID_end_date+1-(W-1))]
+#         plt.scatter(aux_date, y_pred_model_2021)
+#         plt.scatter(aux_date, y_pred_model_2020)
+#         plt.scatter(aux_date, y_test)
+#         plt.show()
+# =============================================================================
+        
         #save data all times series
-        x_test= np.stack([item[g,:] for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
-        y_pred_model_2021=(x_test*np.array(params_2021).reshape((3, -1))).sum(axis=0)
+        no_variante=inf_no_variant[g,:]
+        variantes=[inf_new_variant[g,:],inf_b117[g,:]]
+        array_variantes=np.array(variantes).sum(axis=0)
+        array_no_variantes=np.array(no_variante)        
+        x_test=np.stack([array_no_variantes,array_variantes],axis=0)
+
+        y_pred_model_2021=(x_test*np.array(params_2021).reshape((2, -1))).sum(axis=0)
         dead_pred_model_2021.append(y_pred_model_2021)
         
-        y_pred_model_2020=(x_test*np.array(params_2020).reshape((3, -1))).sum(axis=0)
+        y_pred_model_2020=(x_test*np.array(params_2020).reshape((2, -1))).sum(axis=0)
         dead_pred_model_2020.append(y_pred_model_2020)
         
-        
-        y_test=data['dead'][g,dateID_start_date:dateID_end_date+1]
-        x_test= np.stack([item[g,dateID_start_date-(W-1):dateID_end_date+1-(W-1)] for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
-        params=np.array([fit[0][0],fit[0][1],fit[0][1]])
-        y_pred=(x_test*np.array(params).reshape((3, -1))).sum(axis=0)
-        mse= MSE(y_pred,y_test)
+    
         
         #save values
         frames.append([
@@ -235,7 +259,7 @@ def plot_dead_pred_sns_moving_windows(data, dead_pred_2021,dead_pred_2020, W=29,
     
     end_date_list_ID=[data['date_to_dateID'][np.datetime64(item+"T00:00:00.000000000")] for item in end_date]
     path_projet=os.getcwd().rsplit('ICU_Simulations',1)[0]+'ICU_Simulations/'
-    path_data='Image/Fatality using inf/movable windows'
+    path_data='Image/Fatality using inf/moving windows'
     path=path_projet+path_data+''+'/'
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
