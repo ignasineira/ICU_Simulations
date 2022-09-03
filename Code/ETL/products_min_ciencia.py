@@ -518,6 +518,62 @@ def producto_47():
     return df_47[['start_date', 'media_movil_casos_nuevos']]
 
 
+def timeit(func):
+    def new_func(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        elapsed_time = time.time() - start_time
+        print('function [{}] finished in {} s'.format(
+            func.__name__, int(elapsed_time)))
+        return result
+    return new_func
+
+@timeit
+def prodcuto_57():
+    """
+    Descargar producto 57 directamente del github del ministerio de MinCiencia
+    Archivo que da cuenta de los casos fallecidos confirmados y probables por 
+    COVID-19 notificados en la plataforma EPIVIGILA o informados por los 
+    laboratorios al Ministero de Salud y que se encuentran dentro del conteo 
+    oficial de casos, por fecha de defunción, región de ocurrencia, y si 
+    el caso se hospitalizó o no.
+
+    Caso fallecido: personas que fallecieron en territorio nacional debido
+    a COVID-19. Considera muertes debido a Covid-19 con y sin confirmación
+    de laboratorio (Códigos CIE-10 U07.1 y U07.2, respectivamente) informadas
+    por el Departamento de Estadísticas e Información en Salud (DEIS) del MINSAL.
+
+    Región de ocurrencia: corresponde a la región donde el caso fue 
+    atendido y notificado.
+
+    Importante: las fechas que estan como columnas es la actulizacion de la data
+    y las que estan como filas es la fecha real de fallecidos.
+    He decidod tomar la ultima columna como la fecha mas creible del dato
+    Returns
+    -------
+    dp12 : DataFrame
+        producto 57:['start_date', 'no_hospitalizados', 'hospitalizados',
+               'total_deads_p_57'].
+
+    """
+    
+    
+    url_dp1 = "https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto57/fallecidos_hospitalizados.csv"
+    dp1 = pd.read_csv(url_dp1, error_bad_lines=False)
+    keep_columns=['Fecha', 'Hospitalizacion']
+    keep_columns.append(dp1.columns[-1])
+    dp11=dp1[keep_columns].groupby(keep_columns[:-1]).agg('sum')
+    dp12=dp11.reset_index().pivot_table(index='Fecha', columns='Hospitalizacion', values=keep_columns[-1]).reset_index()
+    dp12.rename(columns={'Fecha':'start_date',
+                         'VERDADERO':'hospitalizados',
+                         'FALSO':'no_hospitalizados'
+        },inplace=True)
+    dp12['total_deads_p_57']=dp12[['hospitalizados','no_hospitalizados']].sum(axis=1)
+    dp12['start_date']=pd.to_datetime(dp12['start_date'])
+    return dp12
+    
+    
+
 def producto_77():
     """
     Descargar producto 77 directamente del github del ministerio de MinCiencia
