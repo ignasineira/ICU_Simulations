@@ -6,6 +6,7 @@ Created on Fri Mar 26 20:05:31 2021
 
 Main idea: Download data directly from the github of the Ministry of Science.
 """
+import sys
 import os
 import warnings
 warnings.filterwarnings("ignore")
@@ -20,9 +21,15 @@ import seaborn as sns
 from datetime import  datetime
 sns.set(color_codes=True)
 import itertools
-import scipy.stats as st
 import time
 
+#new trick
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from tools.tools import timeit
+
+
+@timeit
 def producto_5():
     """
     Descargar data directamente del github del ministerio de MinCiencia
@@ -59,7 +66,7 @@ def producto_5():
     df['proc diff Casos nuevos totales']=df['diff Casos nuevos totales']/df['Casos nuevos totales']
     return df
 
-
+@timeit
 def producto_7_8():
     """
     Descargar producto 7 y 8  directamente del github del ministerio de MinCiencia
@@ -108,7 +115,7 @@ def producto_7_8():
 
     return df_7,df_8
 
-
+@timeit
 def producto_9(max_date_check='2021-07-01'):
     """
     Descargar producto 9 directamente del github del ministerio de MinCiencia
@@ -148,6 +155,7 @@ def producto_9(max_date_check='2021-07-01'):
     df=df[df.start_date<max_date_check]
     return df
 
+@timeit
 def producto_10():
     """
     Descargar producto 10 directamente del github del ministerio de MinCiencia
@@ -190,6 +198,7 @@ def producto_10():
     
     return df_10
 
+@timeit
 def producto_16():
     """
     Descargar producto 16 directamente del github del ministerio de MinCiencia
@@ -228,7 +237,7 @@ def producto_16():
     #df_16['infected_today'] = df_16.groupby([name_columns[0],name_columns[1]])['accumulated_infected'].diff()/(df_16.groupby([name_columns[0],name_columns[1]])['start_date'].diff()/ np.timedelta64(1, 'D'))
     return df_16
 
-
+@timeit
 def producto_20():
     """
     Descargar producto 20 directamente del github del ministerio de MinCiencia
@@ -279,7 +288,7 @@ def producto_20():
     
     return df_20
 
-
+@timeit
 def producto_21():
     """
     Descargar producto 21 directamente del github del ministerio de MinCiencia
@@ -307,6 +316,7 @@ def producto_21():
     df_21['start_date']=pd.to_datetime(df_21['start_date'])
     return df_21
 
+@timeit
 def producto_22():
     """
     Descargar producto 22 directamente del github del ministerio de MinCiencia
@@ -348,7 +358,7 @@ def producto_22():
     
     return df_22
     
-
+@timeit
 def producto_24():
     """
     Descargar producto 24 directamente del github del ministerio de MinCiencia
@@ -397,7 +407,7 @@ def producto_24():
     df=df[df["Tipo de cama"]=='UCI'][['start_date','proporcion']].copy()
     return df
 
-
+@timeit
 def producto_26():
     """
     Descargar producto 26 y 27 directamente del github del ministerio de MinCiencia
@@ -469,6 +479,7 @@ def producto_26():
     df.fillna(0, inplace=True)
     return df
 
+@timeit
 def producto_39():
     """
     Descargar producto 39 directamente del github del ministerio de MinCiencia
@@ -493,7 +504,7 @@ def producto_39():
     df_39['start_date']=pd.to_datetime(df_39['start_date'])
     return df_39
 
-
+@timeit
 def producto_47():
     """
     Descargar producto 47 directamente del github del ministerio de MinCiencia
@@ -517,16 +528,6 @@ def producto_47():
     df_47.fillna(0, inplace=True)
     return df_47[['start_date', 'media_movil_casos_nuevos']]
 
-
-def timeit(func):
-    def new_func(*args, **kwargs):
-        start_time = time.time()
-        result = func(*args, **kwargs)
-        elapsed_time = time.time() - start_time
-        print('function [{}] finished in {} s'.format(
-            func.__name__, int(elapsed_time)))
-        return result
-    return new_func
 
 @timeit
 def prodcuto_57():
@@ -573,7 +574,7 @@ def prodcuto_57():
     return dp12
     
     
-
+@timeit
 def producto_77():
     """
     Descargar producto 77 directamente del github del ministerio de MinCiencia
@@ -712,7 +713,7 @@ def producto_77():
     print("="*40)
     return  df
 
-
+@timeit
 def call_commit_product_77(last_date_check='2021-06-13'):
     """
     Main idea:
@@ -796,7 +797,7 @@ def call_commit_product_77(last_date_check='2021-06-13'):
 
 
 
-
+@timeit
 def read_csv_file_producto_77(commit,date):
     """
     Main idea:
