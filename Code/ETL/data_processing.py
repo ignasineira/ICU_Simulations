@@ -32,7 +32,7 @@ import itertools
 import time
 # OWN MODULES
 from call_vaccine_campaign import Avance_vacunacion
-from products_min_ciencia import producto_5,producto_9,producto_10,producto_16,producto_21, producto_26, producto_39, producto_77
+from products_min_ciencia import producto_5,producto_9,producto_10,producto_16,producto_21, producto_26, producto_39,prodcuto_57, producto_77
 from call_vocs_circulation import call_vocs_circulation
 
 import matplotlib.pyplot as plt 
@@ -63,9 +63,10 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
     """
     start_time = time.time()
     # call dataframe
-    df_9 = producto_9(max_date_check='2021-07-01')
+    df_9 = producto_9(max_date_check=max_date_check)
     df_10 = prepare_producto_10()
-    df_16 = prepare_producto_16(max_date_check='2021-07-01')
+    df_16 = prepare_producto_16(max_date_check=max_date_check)
+    df_57 = prepare_producto_57()
     df_pop = prepare_population()
     if git_hub_info:
         df_77 = producto_77()
@@ -78,6 +79,7 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
         # Get {dosis:dosisID} dictionary from vaccinated
         lab = np.sort(df_77["Laboratorio"].unique())
         lab_to_labID = {lab:labID for labID, lab in enumerate(lab)}
+    
     
     #save date start second dosis
     date_firt_dosis = df_77[(df_77.Dosis=="Primera")&(df_77.accumulated_vaccinated>0)]['start_date'].unique()[0]
@@ -101,8 +103,15 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
     
     # Filter for our data range 
     df_9 = df_9[df_9["start_date"].isin(date_to_dateID)]
-    df_10= df_10[df_10["start_date"].isin(date_to_dateID)]
+    
+    #dead time sries is shorter than the others
+    df_10 = pd.merge(df_16[["start_date",'Grupo de edad']],
+                     df_10, on=['start_date','Grupo de edad'], 
+                     how='left').fillna(0)
+    df_10 = df_10[df_10["start_date"].isin(date_to_dateID)]
     df_16 = df_16[df_16["start_date"].isin(date_to_dateID)]
+    
+    df_57 = df_57[df_57["start_date"].isin(date_to_dateID)]
     df_77 = df_77[df_77["start_date"].isin(date_to_dateID)]
     
     #prepare new dataframe
@@ -114,6 +123,7 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
     uci = get_uci(df_9)
     dead = get_dead(df_10)
     inf = get_inf(df_16,sintomatic_value)
+    dead_icu = get_dead_icu(df_57)
     vac,vac_acc = get_vac(df_77, date_to_dateID, group_to_groupID, dosis_to_dosisID,lab_to_labID,git_hub_info)
     not_vac = get_not_vac(df_not_vacc,pop, date_to_dateID, group_to_groupID)
     
@@ -122,10 +132,12 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
     dateID_to_date = {dateID:date for dateID, date in enumerate(dates)}
     groupID_to_group = {groupID:group for groupID, group in enumerate(groups)}
     
-    data = {'vac':vac, 'inf':inf, 'uci':uci,'dead':dead, 'pop':pop, 
+    data = {'vac':vac, 'inf':inf, 'uci':uci,'dead':dead,'dead_icu':dead_icu,
+            'pop':pop, 
             'not_vac': not_vac,'vac_acc': vac_acc,
             'dateID_firt_dosis' : dateID_firt_dosis,
             'dateID_second_dosis' : dateID_second_dosis,
+            'group_to_groupID':group_to_groupID,
             'groupID_to_group':groupID_to_group, 
             'dateID_to_date':dateID_to_date, 
             'date_to_dateID':date_to_dateID,
@@ -350,6 +362,17 @@ def get_not_vac(df_not_vacc,pop, date_to_dateID, group_to_groupID):
     
     not_vacc=np.where(not_vacc>=0, not_vacc, 0)
     return not_vacc
+
+
+def get_dead_icu(df_57):
+    df_57_copy = df_57.copy()
+    df_57_copy = df_57_copy.sort_values(by=["start_date"], ascending=True)
+    
+        
+    df_57_copy=df_57_copy[['dead_hospitalizados']].unstack()
+    dead_icu = df_57_copy.to_numpy()
+    
+    return dead_icu
     
 
 def prepare_producto_10():
@@ -397,7 +420,7 @@ def prepare_producto_10():
     df['dead_today'] = df.groupby(["Grupo de edad"])['accumulated_dead'].diff()/(df.groupby(["Grupo de edad"])['start_date'].diff()/ np.timedelta64(1, 'D'))
     df['dead_today_v0']=df['dead_today']
     df['mean_dead_hampel']=df.groupby(["Grupo de edad"])['dead_today'].apply(hampel)
-    f1 = lambda x:  x.rolling(7,center=True, min_periods=7).mean()
+    f1 = lambda x:  x.rolling(21,center=True, min_periods=7).mean()
     df['dead_today']=df.groupby(["Grupo de edad"])['mean_dead_hampel'].apply(f1)
     
     
@@ -563,9 +586,12 @@ def get_df_date_16(df, missing_values=True):
     return df_date, df_date_columns
 
 
+def prepare_producto_57():
+    df=prodcuto_57()
+    df['total_deads_p_57']=df['total_deads_p_57'].rolling(21,center=True, min_periods=7).mean()
+    df['dead_hospitalizados']=df['hospitalizados'].rolling(21,center=True, min_periods=7).mean()
 
-
-
+    return df
 
 def prepare_not_vac(df_77, df_pop ):
     """

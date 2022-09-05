@@ -570,6 +570,7 @@ def prodcuto_57():
                          'FALSO':'no_hospitalizados'
         },inplace=True)
     dp12['total_deads_p_57']=dp12[['hospitalizados','no_hospitalizados']].sum(axis=1)
+    dp12['start_date']=dp12.start_date.apply(lambda x: datetime.strptime(x, '%Y-%m-%d'))
     dp12['start_date']=pd.to_datetime(dp12['start_date'])
     return dp12
     

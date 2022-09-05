@@ -789,8 +789,8 @@ def plot_dead_pred_sns_moving_windows_model_2021_v4(data, dead_pred_2021,dead_pr
             info2=info.copy()
             info3=info.copy()
             info1.extend([data['dead'][:4,date].sum(), 'real'])
-            info2.extend([dead_pred_2021[end_date,date-(W-1)], 'predicted_2021'])
-            info3.extend([dead_pred_2020[end_date,date-(W-1)], 'predicted_2020'])
+            info2.extend([dead_pred_2021[end_date,date-(W-1)], 'predicted_2021'])#malo
+            info3.extend([dead_pred_2020[end_date,date-(W-1)], 'predicted_2020'])#malo
             lst.append(info1)
             lst.append(info2)
             lst.append(info3)
