@@ -127,8 +127,7 @@ def main_fit_fatality_2020_using_inf(data,dict_main_dead,W=0):
     return df,mse,fatality_rate
 
 
-def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09']
-):
+def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09']):
     """
     given a moving windows
     1. give a range of time fit the curve 

@@ -5,10 +5,13 @@ Created on Fri Jul 15 22:05:16 2022
 
 @author: ineira
 """
+import os
+import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit 
+from datetime import datetime
 
 def fit_dead_2020(x,a):
      return a*x

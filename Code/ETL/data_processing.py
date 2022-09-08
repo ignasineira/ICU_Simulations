@@ -105,9 +105,11 @@ def read_data(sintomatic_value=True, git_hub_info=False, max_date_check='2021-07
     df_9 = df_9[df_9["start_date"].isin(date_to_dateID)]
     
     #dead time sries is shorter than the others
-    df_10 = pd.merge(df_16[["start_date",'Grupo de edad']],
-                     df_10, on=['start_date','Grupo de edad'], 
-                     how='left').fillna(0)
+# =============================================================================
+#     df_10 = pd.merge(df_16[["start_date",'Grupo de edad']],
+#                      df_10, on=['start_date','Grupo de edad'], 
+#                      how='left').fillna(0)
+# =============================================================================
     df_10 = df_10[df_10["start_date"].isin(date_to_dateID)]
     df_16 = df_16[df_16["start_date"].isin(date_to_dateID)]
     
@@ -420,7 +422,7 @@ def prepare_producto_10():
     df['dead_today'] = df.groupby(["Grupo de edad"])['accumulated_dead'].diff()/(df.groupby(["Grupo de edad"])['start_date'].diff()/ np.timedelta64(1, 'D'))
     df['dead_today_v0']=df['dead_today']
     df['mean_dead_hampel']=df.groupby(["Grupo de edad"])['dead_today'].apply(hampel)
-    f1 = lambda x:  x.rolling(21,center=True, min_periods=7).mean()
+    f1 = lambda x:  x.rolling(7,center=True, min_periods=7).mean()
     df['dead_today']=df.groupby(["Grupo de edad"])['mean_dead_hampel'].apply(f1)
     
     

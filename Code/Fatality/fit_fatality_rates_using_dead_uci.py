@@ -64,15 +64,15 @@ def main_fit_fatality_2020_v4(data,dict_main_dead,W=29):
    
     for date in list_start_date:
         dateID_date = data['date_to_dateID'][np.datetime64(date+"T00:00:00.000000000")]
-        #y= (data['dead_icu']-data['dead'][index_70,:])[dateID_date:dateID_end_date+1]
-        y= (data['dead_icu'])[dateID_date:dateID_end_date+1]
+        y= (data['dead_icu']-data['dead'][index_70,:])[dateID_date:dateID_end_date+1]
+        #y= (data['dead_icu'])[dateID_date:dateID_end_date+1]
         x= dead['Not variant'][:4,dateID_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0)
         
         fit = curve_fit(fit_dead_2020, x, y)
         
         
         y_test=(data['dead_icu']-data['dead'][index_70,:])[dateID_start_date:dateID_end_date+1]
-        y_test=(data['dead_icu'])[dateID_start_date:dateID_end_date+1]
+        #y_test=(data['dead_icu'])[dateID_start_date:dateID_end_date+1]
         x_test= dead['Not variant'][:4,dateID_start_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0)
         y_pred=x_test*fit[0][0]
         aux_date=[ data['dateID_to_date'][key] for key in range(dateID_start_date-(W-1),dateID_end_date+1-(W-1))]
@@ -145,8 +145,8 @@ def main_fit_fatality_2021_v4(data,dict_main_dead,fatality_rate, month=['May','J
     for end_date in end_date_list:
         dateID_end_date = data['date_to_dateID'][np.datetime64(end_date+"T00:00:00.000000000")]
         dateID_date = data['date_to_dateID'][np.datetime64(date+"T00:00:00.000000000")]
-        #y=(data['dead_icu']-data['dead'][index_70,:])[dateID_date:dateID_end_date+1]
-        y=(data['dead_icu'])[dateID_date:dateID_end_date+1]
+        y=(data['dead_icu']-data['dead'][index_70,:])[dateID_date:dateID_end_date+1]
+        #y=(data['dead_icu'])[dateID_date:dateID_end_date+1]
         #x= dead['Not variant'][g,dateID_date-(W-1):dateID_end_date+1-(W-1)]
         variantes=[]
         no_variante=[]
@@ -166,8 +166,8 @@ def main_fit_fatality_2021_v4(data,dict_main_dead,fatality_rate, month=['May','J
         
         
         
-        #y_test=(data['dead_icu']-data['dead'][index_70,:])[dateID_start_date:dateID_end_date+1]
-        y_test=(data['dead_icu'])[dateID_start_date:dateID_end_date+1]
+        y_test=(data['dead_icu']-data['dead'][index_70,:])[dateID_start_date:dateID_end_date+1]
+        #y_test=(data['dead_icu'])[dateID_start_date:dateID_end_date+1]
         x_test= np.stack([item[:4,dateID_start_date-(W-1):dateID_end_date+1-(W-1)].sum(axis=0) for key, item in dict_main_dead['dict_dead_variant'].items() if key!='total'],axis=0)
         params_2021=np.array([fit[0][0],fit[0][1],fit[0][1]])
         y_pred_model_2021=(x_test*np.array(params_2021).reshape((3, -1))).sum(axis=0)
@@ -243,8 +243,8 @@ def plot_dead_pred_sns_moving_windows_model_2021_v4(data, dead_pred_2021,dead_pr
             info1=info.copy()
             info2=info.copy()
             info3=info.copy()
-            #info1.extend([(data['dead_icu']-data['dead'][4,:])[date], 'real'])
-            info1.extend([(data['dead_icu'])[date], 'real'])
+            info1.extend([(data['dead_icu']-data['dead'][4,:])[date], 'real'])
+            #info1.extend([(data['dead_icu'])[date], 'real'])
             info2.extend([dead_pred_2021[end_date,date-(W-1)], 'predicted_2021'])
             info3.extend([dead_pred_2020[end_date,date-(W-1)], 'predicted_2020'])
             lst.append(info1)
@@ -322,3 +322,21 @@ def fit_dead_2021_v2(x,f_no_variant,f_variants):
    
 
     return x[0]*f_no_variant+x[1]*f_variants
+
+
+
+"""
+aux_date=[ data['dateID_to_date'][key] for key in range(len(data['dateID_to_date']))]
+for key,item in data['groupID_to_group'].items():
+    plt.plot(aux_date,data['dead'][key,:], label='dead pred '+item)
+
+plt.plot(aux_date, data['dead_icu'], label='dead uci')
+plt.xlim([aux_date[91],aux_date[409]])
+plt.grid(axis='x', color='0.95')
+plt.legend( loc='upper right',fontsize=7)#(title='git hub product'
+plt.title('Dead time series')
+plt.tight_layout()
+plt.gcf().autofmt_xdate()
+plt.show()
+
+"""

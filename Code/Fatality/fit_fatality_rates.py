@@ -385,7 +385,7 @@ def main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','J
 
     return df, dead_pred_2021, dead_pred_2020
 
-
+# df, dead_pred_2021, dead_pred_2020=main_fit_fatality_2021_v3(data,dict_main_dead,fatality_rate, month=['May','July'],W=29,end_date= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09'])
 def main_fit_fatality_2020_v4(data,dict_main_dead,W=29):
     """
     1. give a range of time fit the curve 
@@ -756,7 +756,7 @@ def plot_dead_pred_sns_moving_windows(data, dead_pred_2021,dead_pred_2020, W=29,
         plt.tight_layout()
         plt.gcf().autofmt_xdate()
         try: 
-            ax.figure.savefig(path+'Image/Fatality/'+"Fatality_rate_time_window"+group_name+".png")
+            ax.figure.savefig(path+'Fatality/'+"Fatality_rate_time_window"+group_name+".png")
         except:
             ax.figure.savefig(path+"Fatality_rate_time_window"+group_name[:-2]+".png")
         plt.show()
