@@ -9,8 +9,12 @@ import pandas as pd
 import numpy as np
 import statsmodels.api as sm
 import math
+from scipy.stats import chi2
 
 
+#df=main_fit_fatalitity_ols(data,dict_main_dead,W=29,modelo_irrestricto=True,end_date_list= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09'])
+#LR_test(df, prob = 0.95)
+#df.to_scsv('../../Data/Output/Fatality/fatality_rate_ols.csv',index=False)
 def main_fit_fatalitity_ols(data,dict_main_dead,W=29,modelo_irrestricto=True,end_date_list= ['2021-03-25','2021-03-12','2021-02-18','2021-05-14','2021-02-09']):
     """
     1. give a range of time fit the curve 
@@ -87,8 +91,8 @@ def main_fit_fatalitity_ols(data,dict_main_dead,W=29,modelo_irrestricto=True,end
         params_2021,str_err_2021,LL_2021=ols_2021(dead,dead_original, icu_gamma)
         
         print(icu_gamma[-10:],icu_original[-10:])
-        #LL_2020=neg_loglikehood_normal_distribution_restringido(data,params_2020[0])
-        
+        LL_2020=-neg_loglikehood_normal_distribution_restringido([dead,icu_original],[params_2020[0],0])
+        LL_2021=-neg_loglikehood_normal_distribution_irresctricto([dead,icu_original,icu_gamma],[params_2020[0],params_2021[0],0])
         
         result_data['alpha_original_ols'].append(params_2020[0])
         result_data['alpha_gamma_ols'].append(params_2021[0])
@@ -169,3 +173,27 @@ def calcLogLikelihood(guess, true, n):
     f = ((1.0/(2.0*math.pi*sigma*sigma))**(n/2))* \
         np.exp(-1*((np.dot(error.T,error))/(2*sigma*sigma)))
     return np.log(f)
+
+
+
+def LR_test(df, prob = 0.95):
+    list_order_group=['<=39','40-49', '50-59', '60-69', '>=70']
+    # interpret test-statistic
+    #prob = 0.95
+    dof=2
+    critical = chi2.ppf(prob, dof)
+    
+    for group in list_order_group: 
+        result1=df[df['Grupo de edad']==group]['LL_OLS_2020'].max()
+        result2=df[df['Grupo de edad']==group]['LL_OLS_2021'].max()
+        LR=2*abs((np.min(result1)-np.min(result2)))
+        print(f"For group: {group}")
+        print('probability=%.3f, critical=%.3f, stat=%.3f' % (prob, critical, LR))
+        if abs(LR) >= critical:
+            print('Dependent (reject H0)')
+        else:
+            print('Independent (fail to reject H0)')
+            
+        p = 1-chi2.cdf(x=LR, df=dof)    
+        print("calculate p value: {}".format(round(p,4)))
+        
